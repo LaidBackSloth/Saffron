@@ -1,0 +1,9 @@
+setup-server.bat
+setup-server.sh
+SERVER_README.txt
+ship-base.py
+ship-create.py
+ship-dev.py
+
+these files are originally from the Bliss Modpack by Vazkii
+https://github.com/VazkiiMods/Bliss/tree/main/ship

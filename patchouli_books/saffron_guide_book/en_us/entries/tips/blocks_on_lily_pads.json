@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.blocks_on_lily_pads",
+    "icon": "minecraft:lily_pad",
+    "category": "patchouli:tips",
+    "sortnum": 415,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.blocks_on_lily_pads"
+            }
+        }
+    ]
+}

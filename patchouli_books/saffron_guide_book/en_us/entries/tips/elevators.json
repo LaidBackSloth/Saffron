@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.elevators",
+    "icon": "elevatorid:elevator_yellow",
+    "category": "patchouli:tips",
+    "sortnum": 80,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.elevators"
+            }
+        }
+    ]
+}

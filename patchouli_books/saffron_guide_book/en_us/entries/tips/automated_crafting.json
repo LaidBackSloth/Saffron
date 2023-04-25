@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.automated_crafting",
+    "icon": "structuredcrafting:structured_crafter",
+    "category": "patchouli:tips",
+    "sortnum": 100,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.automated_crafting"
+            }
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "saffron.entry.light_overlay",
+    "icon": "minecraft:torch",
+    "category": "patchouli:tips",
+    "sortnum": 30,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.light_overlay",
+                "with": [
+                    {
+                        "keybind": "key.moreoverlays.lightoverlay.desc"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.stronger_pistons",
+    "icon": "minecraft:piston",
+    "category": "patchouli:tips",
+    "sortnum": 295,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.stronger_pistons"
+            }
+        }
+    ]
+}

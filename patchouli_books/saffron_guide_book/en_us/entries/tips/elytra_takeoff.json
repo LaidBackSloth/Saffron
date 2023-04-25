@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.elytra_takeoff",
+    "icon": "minecraft:elytra",
+    "category": "patchouli:tips",
+    "sortnum": 265,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.elytra_takeoff"
+            }
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.automated_block_placing",
+    "icon": "minecraft:dispenser",
+    "category": "patchouli:tips",
+    "sortnum": 90,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.automated_block_placing"
+            }
+        }
+    ]
+}

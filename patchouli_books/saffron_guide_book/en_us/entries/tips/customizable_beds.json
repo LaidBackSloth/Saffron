@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.customizable_beds",
+    "icon": "minecraft:yellow_bed",
+    "category": "patchouli:tips",
+    "sortnum": 230,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.customizable_beds"
+            }
+        }
+    ]
+}

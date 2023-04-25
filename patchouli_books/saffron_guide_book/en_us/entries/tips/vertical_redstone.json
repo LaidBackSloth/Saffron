@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.vertical_redstone",
+    "icon": "supplementaries:cog_block",
+    "category": "patchouli:tips",
+    "sortnum": 290,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.vertical_redstone"
+            }
+        }
+    ]
+}

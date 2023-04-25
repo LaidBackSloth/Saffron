@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.alternative_redstone",
+    "icon": "additionaladditions:copper_patina",
+    "category": "patchouli:tips",
+    "sortnum": 285,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.alternative_redstone"
+            }
+        }
+    ]
+}

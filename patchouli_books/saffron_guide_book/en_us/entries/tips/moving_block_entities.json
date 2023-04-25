@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.moving_block_entities",
+    "icon": "minecraft:chest",
+    "category": "patchouli:tips",
+    "sortnum": 300,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.moving_block_entities"
+            }
+        }
+    ]
+}

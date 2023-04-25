@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.upside_down_hoppers",
+    "icon": "uppers:upper",
+    "category": "patchouli:tips",
+    "sortnum": 130,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.upside_down_hoppers"
+            }
+        }
+    ]
+}

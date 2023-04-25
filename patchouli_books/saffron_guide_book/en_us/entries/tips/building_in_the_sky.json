@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.building_in_the_sky",
+    "icon": "angelblockrenewed:angel_block",
+    "category": "patchouli:tips",
+    "sortnum": 380,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.building_in_the_sky"
+            }
+        }
+    ]
+}

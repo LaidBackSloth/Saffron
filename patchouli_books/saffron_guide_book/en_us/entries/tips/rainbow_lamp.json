@@ -1,0 +1,19 @@
+{
+    "name": "saffron.entry.rainbow_lamp",
+    "icon": "rainbowlamp:rainbow_lamp",
+    "category": "patchouli:tips",
+    "sortnum": 410,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.rainbow_lamp",
+                "with": [
+                    {
+                        "keybind": "key.use"
+                    }
+                ]
+            }
+        }
+    ]
+}

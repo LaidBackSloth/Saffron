@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.pickarang",
+    "icon": "quark:pickarang",
+    "category": "patchouli:tips",
+    "sortnum": 175,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.pickarang"
+            }
+        }
+    ]
+}

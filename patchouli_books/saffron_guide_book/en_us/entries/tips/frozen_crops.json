@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.frozen_crops",
+    "icon": "minecraft:farmland",
+    "category": "patchouli:tips",
+    "sortnum": 425,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.frozen_crops"
+            }
+        }
+    ]
+}

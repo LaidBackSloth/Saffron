@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.void_totem",
+    "icon": "voidtotem:totem_of_void_undying",
+    "category": "patchouli:tips",
+    "sortnum": 360,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.void_totem"
+            }
+        }
+    ]
+}

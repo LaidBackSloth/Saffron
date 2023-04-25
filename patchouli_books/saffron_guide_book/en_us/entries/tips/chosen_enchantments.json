@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.chosen_enchantments",
+    "icon": "enchantinginfuser:enchanting_infuser",
+    "category": "patchouli:tips",
+    "sortnum": 195,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.chosen_enchantments"
+            }
+        }
+    ]
+}

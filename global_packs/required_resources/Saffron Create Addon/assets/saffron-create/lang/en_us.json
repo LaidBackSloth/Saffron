@@ -1,0 +1,10 @@
+{
+    "saffron-create.guide.create.name": "Create",
+    "saffron-create.guide.create.1": "Create is an amazing mod, adding many cool features.$(br2)It also has an in-game documentation. You can often get more information on Create's items when hovering over them. It's recommended to scroll through JEI and look at all items from Create at some point, as there are many cool features you don't want to miss, e.g. a completely new train system.",
+    "saffron-create.guide.create.2": "A good way to get started with Create are its achievements.$(br2)Once you mastered the basics, you can just try all the fancy machines from Create, you might also want to create a separate world in Creative mode for testing.$(br2)If you watch tutorials on the internet, just keep in mind that some recipes are different in this modpack, but JEI helps you out there.",
+    
+    "saffron-create.info.scoria_gen": "Scoria generates when flowing Lava comes in contact with flowing Chocolate.",
+    "saffron-create.info.marble_gen": "Marble generates when flowing Lava comes in contact with flowing Honey.",
+    
+    "saffron-create.tooltip.minecart_movable": "Can be moved on a Minecart contraption."
+}

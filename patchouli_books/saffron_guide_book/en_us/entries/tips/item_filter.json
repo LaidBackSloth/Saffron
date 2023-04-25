@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.item_filter",
+    "icon": "goldenhopper:golden_hopper",
+    "category": "patchouli:tips",
+    "sortnum": 135,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.item_filter"
+            }
+        }
+    ]
+}

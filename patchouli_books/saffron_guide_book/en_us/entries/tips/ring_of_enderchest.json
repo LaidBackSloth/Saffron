@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.ring_of_enderchest",
+    "icon": "ring_of_enderchest:ring_of_enderchest",
+    "category": "patchouli:tips",
+    "sortnum": 160,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.ring_of_enderchest"
+            }
+        }
+    ]
+}

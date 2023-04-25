@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "title": {
+      "translate": "additionaladditions.advancements.obtain_chicken_nugget"
+    },
+    "description": {
+      "translate": "saffron.tooltip.disabled"
+    },
+    "icon": {
+      "item": "additionaladditions:chicken_nugget"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

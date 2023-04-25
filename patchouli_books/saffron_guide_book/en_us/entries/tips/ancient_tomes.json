@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.ancient_tomes",
+    "icon": "quark:ancient_tome",
+    "category": "patchouli:tips",
+    "sortnum": 210,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.ancient_tomes"
+            }
+        }
+    ]
+}

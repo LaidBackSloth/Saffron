@@ -1,0 +1,28 @@
+Vanilla Tweaks Resource Pack
+Version: 1.18
+Packs:
+	JappaStatsIcons
+	JappaSpecIcons
+	DripleafFixBig
+	DripleafFixSmall
+	CactusBottomFix
+	CocoaBeansTopFix
+	PixelConsistentGhast
+	PixelConsistentElderGuardian
+	PixelConsistentWither
+	TripwireHookFix
+	PixelConsistentBeaconBeam
+	PixelConsistentGuardianBeam
+	BlazeFix
+	CatFix
+	Age25Kelp
+	ClearBannerPatterns
+	DirectionalHoppers
+	DirectionalDispensersDroppers
+	NoteblockBanners
+	DifferentStems
+	RedIronGolemFlowers
+	HDShieldBanners
+	UniqueDyes
+	SplashXpBottle
+	PlainLeatherArmor

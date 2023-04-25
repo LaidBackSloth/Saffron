@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.invisible_lights",
+    "icon": "torchmaster:feral_flare_lantern",
+    "category": "patchouli:tips",
+    "sortnum": 325,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.invisible_lights"
+            }
+        }
+    ]
+}

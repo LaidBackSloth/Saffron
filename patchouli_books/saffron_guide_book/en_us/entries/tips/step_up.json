@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.step_up",
+    "icon": "minecraft:oak_stairs",
+    "category": "patchouli:tips",
+    "sortnum": 275,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.step_up"
+            }
+        }
+    ]
+}

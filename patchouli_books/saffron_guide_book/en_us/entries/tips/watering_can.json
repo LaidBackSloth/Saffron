@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.watering_can",
+    "icon": "additionaladditions:watering_can",
+    "category": "patchouli:tips",
+    "sortnum": 315,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.watering_can"
+            }
+        }
+    ]
+}

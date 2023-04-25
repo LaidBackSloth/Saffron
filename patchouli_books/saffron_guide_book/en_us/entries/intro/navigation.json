@@ -1,0 +1,39 @@
+{
+	"name": "saffron.guide.navigation.name",
+	"icon": "minecraft:filled_map",
+	"category": "patchouli:intro",
+	"sortnum": 5,
+	"pages": [
+		{
+			"type": "text",
+			"text": {
+                "translate": "saffron.guide.navigation.1",
+                "with": [
+                    {
+                        "keybind": "gui.xaero_minimap_settings"
+                    },
+                    {
+                        "keybind": "gui.xaero_open_map"
+                    }
+                ]
+            }
+		},
+		{
+            "type": "text",
+			"text": {
+                "translate": "saffron.guide.navigation.2",
+                "with": [
+                    {
+                        "keybind": "gui.xaero_new_waypoint"
+                    },
+                    {
+                        "keybind": "gui.xaero_waypoints_key"
+                    },
+                    {
+                        "keybind": "gui.xaero_toggle_waypoints"
+                    }
+                ]
+            }
+		}
+	]
+}

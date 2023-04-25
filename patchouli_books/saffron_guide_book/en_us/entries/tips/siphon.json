@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.siphon",
+    "icon": "minecraft:orange_shulker_box",
+    "category": "patchouli:tips",
+    "sortnum": 140,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.siphon"
+            }
+        }
+    ]
+}

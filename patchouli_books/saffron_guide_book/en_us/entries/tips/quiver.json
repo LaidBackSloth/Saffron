@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.quiver",
+    "icon": "supplementaries:quiver",
+    "category": "patchouli:tips",
+    "sortnum": 370,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.quiver"
+            }
+        }
+    ]
+}

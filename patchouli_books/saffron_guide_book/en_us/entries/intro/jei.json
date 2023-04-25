@@ -1,0 +1,55 @@
+{
+	"name": "saffron.guide.jei.name",
+	"icon": "minecraft:compass",
+	"category": "patchouli:intro",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "text",
+			"text": {
+				"translate": "saffron.guide.jei.1",
+				"with": [
+					{
+						"keybind": "key.jei.toggleOverlay"
+					}
+				]
+			}
+		},
+		{
+			"type": "text",
+			"text": {
+				"translate": "saffron.guide.jei.2",
+				"with": [
+                    {
+                        "keybind": "key.jei.showRecipe"
+                    },
+					{
+                        "keybind": "key.jei.showUses"
+                    }
+                ]
+			}
+		},
+		{
+			"type": "text",
+			"text": {
+				"translate": "saffron.guide.jei.3",
+				"with": [
+                    {
+                        "keybind": "key.jei.bookmark"
+                    }
+                ]
+			}
+		},
+		{
+			"type": "text",
+			"text": {
+				"translate": "saffron.guide.jei.4",
+				"with": [
+					{
+						"keybind": "key.jei.toggleCheatModeConfigButton"
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,63 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = fancymenu_setups/textures/starting.jpg
+  autoscale_baseheight = 1080
+  renderorder = foreground
+  autoscale_basewidth = 1920
+  randommode = false
+  scale = 3
+  randomonlyfirsttime = false
+}
+
+customization {
+  orientation = top-centered
+  visible = false
+  x = 0
+  action = editlogo
+  y = 13
+}
+
+customization {
+  orientation = mid-centered
+  x = 0
+  action = editprogressbar
+  y = 73
+  barcolor = FFD000
+}
+
+customization {
+  path = fancymenu_setups/textures/saffron_title.png
+  orientation = mid-centered
+  x = 0
+  width = 360
+  action = addtexture
+  actionid = c2cc7a80-f978-4715-a4cc-50528e7897901663691053978
+  y = 0
+  height = 76
+}
+
+customization {
+  path = fancymenu_setups/textures/mojangstudios.png
+  orientation = bottom-left
+  x = 8
+  width = 200
+  action = addtexture
+  actionid = b963f426-3e0b-416e-9ca6-31657bb2fe061663779903530
+  y = -9
+  height = 49
+}
+
+customization {
+  path = fancymenu_setups/textures/laidbacksloth.png
+  orientation = top-left
+  x = 533
+  width = 122
+  action = addtexture
+  actionid = 551ef18f-4a92-4f8a-9452-01c77d739db21668621254817
+  y = 252
+  height = 122
+}
+

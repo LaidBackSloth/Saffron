@@ -1,0 +1,22 @@
+{
+    "name": "saffron.entry.item_sharing",
+    "icon": "supplementaries:globe",
+    "category": "patchouli:tips",
+    "sortnum": 235,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.item_sharing",
+                "with": [
+                    {
+                        "keybind": "key.sneak"
+                    },
+                    {
+                        "keybind": "key.chat"
+                    }
+                ]
+            }
+        }
+    ]
+}

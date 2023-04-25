@@ -1,0 +1,22 @@
+{
+    "name": "saffron.entry.quick_beacon_pyramid",
+    "icon": "minecraft:iron_block",
+    "category": "patchouli:tips",
+    "sortnum": 345,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.quick_beacon_pyramid",
+                "with": [
+                    {
+                        "keybind": "key.sneak"
+                    },
+                    {
+                        "keybind": "key.use"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "saffron.entry.boats_with_chests",
+    "icon": "wildbackport:oak_chest_boat",
+    "category": "patchouli:tips",
+    "sortnum": 250,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.boats_with_chests",
+                "with": [
+                    {
+                        "keybind": "key.use"
+                    }
+                ]
+            }
+        }
+    ]
+}

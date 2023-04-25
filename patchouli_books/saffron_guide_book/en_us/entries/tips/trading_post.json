@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.trading_post",
+    "icon": "tradingpost:trading_post",
+    "category": "patchouli:tips",
+    "sortnum": 60,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.trading_post"
+            }
+        }
+    ]
+}

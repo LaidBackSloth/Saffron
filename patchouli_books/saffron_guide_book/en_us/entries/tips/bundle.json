@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.bundle",
+    "icon": "minecraft:bundle",
+    "category": "patchouli:tips",
+    "sortnum": 115,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.bundle"
+            }
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.hyper_speed",
+    "icon": "minecraft:wheat_seeds",
+    "category": "patchouli:tips",
+    "sortnum": 85,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.hyper_speed"
+            }
+        }
+    ]
+}

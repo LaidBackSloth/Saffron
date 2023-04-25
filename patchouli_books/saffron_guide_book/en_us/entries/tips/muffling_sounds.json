@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.muffling_sounds",
+    "icon": "minecraft:barrier",
+    "category": "patchouli:tips",
+    "sortnum": 40,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.muffling_sounds"
+            }
+        }
+    ]
+}

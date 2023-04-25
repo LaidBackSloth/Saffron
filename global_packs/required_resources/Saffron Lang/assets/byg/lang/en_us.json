@@ -1,0 +1,22 @@
+{
+    "byg.advancements.biomepediagift.description": "Obtain a Biomepedia",
+    "item.byg.ametrine_boots": "Pendorite Boots",
+    "item.byg.ametrine_chestplate": "Pendorite Chestplate",
+    "item.byg.ametrine_helmet": "Pendorite Helmet",
+    "item.byg.ametrine_leggings": "Pendorite Leggings",
+
+    "block.byg.cracked_scoria_stone_bricks": "Cracked Laterite Bricks",
+    "block.byg.scoria_cobblestone": "Cobbled Laterite",
+    "block.byg.scoria_cobblestone_slab": "Cobbled Laterite Slab",
+    "block.byg.scoria_cobblestone_stairs": "Cobbled Laterite Stairs",
+    "block.byg.scoria_cobblestone_wall": "Cobbled Laterite Wall",
+    "block.byg.scoria_pillar": "Laterite Pillar",
+    "block.byg.scoria_stone": "Laterite",
+    "block.byg.scoria_stone_slab": "Laterite Slab",
+    "block.byg.scoria_stone_stairs": "Laterite Stairs",
+    "block.byg.scoria_stone_wall": "Laterite Wall",
+    "block.byg.scoria_stonebrick_slab": "Laterite Brick Slab",
+    "block.byg.scoria_stonebrick_stairs": "Laterite Brick Stairs",
+    "block.byg.scoria_stonebrick_wall": "Laterite Brick Wall",
+    "block.byg.scoria_stonebricks": "Laterite Bricks"
+}

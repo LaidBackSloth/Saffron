@@ -1,0 +1,22 @@
+{
+    "name": "saffron.entry.repairing_items",
+    "icon": "minecraft:diamond_pickaxe",
+    "category": "patchouli:tips",
+    "sortnum": 215,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.repairing_items",
+                "with": [
+                    {
+                        "keybind": "key.sneak"
+                    },
+                    {
+                        "keybind": "key.use"
+                    }
+                ]
+            }
+        }
+    ]
+}

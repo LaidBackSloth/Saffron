@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.elytra_duplication",
+    "icon": "quark:dragon_scale",
+    "category": "patchouli:tips",
+    "sortnum": 270,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.elytra_duplication"
+            }
+        }
+    ]
+}

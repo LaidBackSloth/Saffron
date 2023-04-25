@@ -1,0 +1,22 @@
+{
+    "name": "saffron.entry.picking_up_entities",
+    "icon": "minecraft:pig_spawn_egg",
+    "category": "patchouli:tips",
+    "sortnum": 45,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.picking_up_entities",
+                "with": [
+                    {
+                        "keybind": "key.sneak"
+                    },
+                    {
+                        "keybind": "key.use"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "saffron.entry.counting_blocks",
+    "icon": "quark:abacus",
+    "category": "patchouli:tips",
+    "sortnum": 180,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.counting_blocks",
+                "with": [
+                    {
+                        "keybind": "key.use"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.seed_pouch",
+    "icon": "quark:seed_pouch",
+    "category": "patchouli:tips",
+    "sortnum": 385,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.seed_pouch"
+            }
+        }
+    ]
+}

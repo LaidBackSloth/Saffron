@@ -1,0 +1,19 @@
+{
+    "name": "saffron.entry.searching_for_items",
+    "icon": "quark:oak_chest",
+    "category": "patchouli:tips",
+    "sortnum": 35,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.searching_for_items",
+                "with": [
+                    {
+                        "keybind": "key.findme.search"
+                    }
+                ]
+            }
+        }
+    ]
+}

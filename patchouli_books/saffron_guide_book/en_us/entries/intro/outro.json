@@ -1,0 +1,20 @@
+{
+	"name": "saffron.guide.outro.name",
+	"icon": "minecraft:writable_book",
+	"category": "patchouli:intro",
+	"sortnum": 100,
+	"pages": [
+		{
+			"type": "text",
+			"text": {
+				"translate": "saffron.guide.outro.1"
+			}
+		},
+		{
+			"type": "text",
+			"text": {
+				"translate": "saffron.guide.outro.2"
+			}
+		}
+	]
+}

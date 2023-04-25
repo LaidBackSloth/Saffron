@@ -1,0 +1,22 @@
+{
+    "block.framedblocks.framed_panel": "Framed Vertical Slab",
+    "block.framedblocks.framed_slope_panel": "Framed Slope Vertical Slab",
+    "block.framedblocks.framed_extended_slope_panel": "Framed Elevated Slope Vertical Slab",
+    "block.framedblocks.framed_double_slope_panel": "Framed Double Slope Vertical Slab",
+    "block.framedblocks.framed_inv_double_slope_panel": "Framed Inverted Double Slope Vertical Slab",
+    "block.framedblocks.framed_extended_double_slope_panel": "Framed Extended Double Slope Vertical Slab",
+    "block.framedblocks.framed_flat_slope_panel_corner": "Framed Flat Slope Vertical Slab Corner",
+    "block.framedblocks.framed_flat_inner_slope_panel_corner": "Framed Flat Inner Slope Vertical Slab Corner",
+    "block.framedblocks.framed_flat_ext_slope_panel_corner": "Framed Flat Extended Slope Vertical Slab Corner",
+    "block.framedblocks.framed_flat_ext_inner_slope_panel_corner": "Framed Flat Extended Inner Slope Vertical Slab Corner",
+    "block.framedblocks.framed_flat_double_slope_panel_corner": "Framed Flat Double Slope Vertical Slab Corner",
+    "block.framedblocks.framed_flat_inv_double_slope_panel_corner": "Framed Flat Inverted Double Slope Vertical Slab Corner",
+    "block.framedblocks.framed_flat_ext_double_slope_panel_corner": "Framed Flat Extended Double Slope Vertical Slab Corner",
+    "block.framedblocks.framed_flat_ext_inner_double_slope_panel_corner": "Framed Flat Extended Inner Double Slope Vertical Slab Corner",
+    "block.framedblocks.framed_flat_inv_double_slope_slab_corner": "Framed Flat Inverted Double Slope Slab Corner",
+    "block.framedblocks.framed_divided_panel_horizontal": "Framed Divided Vertical Slab (Horizontal)",
+    "block.framedblocks.framed_divided_panel_vertical": "Framed Divided Vertical Slab (Vertical)",
+    "block.framedblocks.framed_stacked_slope_panel": "Framed Stacked Slope Vertical Slab",
+    "block.framedblocks.framed_flat_stacked_slope_panel_corner": "Framed Flat Stacked Slope Vertical Slab Corner",
+    "block.framedblocks.framed_flat_stacked_inner_slope_panel_corner": "Framed Flat Stacked Inner Slope Vertical Slab Corner"
+}

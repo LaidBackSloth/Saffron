@@ -1,0 +1,20 @@
+{
+    "block.twigs.cobblestone_bricks": "Cobblestone Tiles",
+    "block.twigs.cobblestone_brick_stairs": "Cobblestone Tile Stairs",
+    "block.twigs.cobblestone_brick_slab": "Cobblestone Tile Slab",
+    "block.twigs.cobblestone_brick_wall": "Cobblestone Tile Wall",
+    "block.twigs.cracked_cobblestone_bricks": "Cracked Cobblestone Tiles",
+    "block.twigs.mossy_cobblestone_bricks": "Mossy Cobblestone Tiles",
+    "block.twigs.mossy_cobblestone_brick_stairs": "Mossy Cobblestone Tile Stairs",
+    "block.twigs.mossy_cobblestone_brick_slab": "Mossy Cobblestone Tile Slab",
+    "block.twigs.mossy_cobblestone_brick_wall": "Mossy Cobblestone Tile Wall",
+
+    "block.twigs.polished_calcite_bricks": "Polished Calcite Tiles",
+    "block.twigs.polished_calcite_brick_stairs": "Polished Calcite Tile Stairs",
+    "block.twigs.polished_calcite_brick_slab": "Polished Calcite Tile Slab",
+    "block.twigs.polished_calcite_brick_wall": "Polished Calcite Tile Wall",
+    "block.twigs.polished_cracked_calcite_bricks": "Cracked Polished Calcite Tiles",
+
+    "block.twigs.bundled_bamboo": "Block of Bamboo",
+    "block.twigs.stripped_bundled_bamboo": "Block of Stripped Bamboo"
+}

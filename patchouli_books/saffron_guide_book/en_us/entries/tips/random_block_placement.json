@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.random_block_placement",
+    "icon": "quark:trowel",
+    "category": "patchouli:tips",
+    "sortnum": 185,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.random_block_placement"
+            }
+        }
+    ]
+}

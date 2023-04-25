@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.framed_blocks",
+    "icon": "framedblocks:framed_stairs",
+    "category": "patchouli:tips",
+    "sortnum": 15,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.framed_blocks"
+            }
+        }
+    ]
+}

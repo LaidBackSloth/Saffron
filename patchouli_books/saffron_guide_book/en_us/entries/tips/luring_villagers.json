@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.luring_villagers",
+    "icon": "minecraft:emerald_block",
+    "category": "patchouli:tips",
+    "sortnum": 65,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.luring_villagers"
+            }
+        }
+    ]
+}

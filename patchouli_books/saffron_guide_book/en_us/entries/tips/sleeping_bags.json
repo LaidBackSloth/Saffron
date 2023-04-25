@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.sleeping_bags",
+    "icon": "comforts:sleeping_bag_yellow",
+    "category": "patchouli:tips",
+    "sortnum": 220,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.sleeping_bags"
+            }
+        }
+    ]
+}

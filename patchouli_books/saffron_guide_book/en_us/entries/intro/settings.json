@@ -1,0 +1,26 @@
+{
+	"name": "saffron.guide.settings.name",
+	"icon": "framedblocks:framed_wrench",
+	"category": "patchouli:intro",
+	"sortnum": 10,
+	"pages": [
+		{
+			"type": "text",
+			"text": {
+				"translate": "saffron.guide.settings.1"
+			}
+		},
+		{
+			"type": "text",
+			"text": {
+				"translate": "saffron.guide.settings.2"
+			}
+		},
+		{
+			"type": "text",
+			"text": {
+				"translate": "saffron.guide.settings.3"
+			}
+		}
+	]
+}

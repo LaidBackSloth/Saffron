@@ -1,0 +1,19 @@
+{
+    "name": "saffron.entry.notes",
+    "icon": "minecraft:paper",
+    "category": "patchouli:tips",
+    "sortnum": 25,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.notes",
+                "with": [
+                    {
+                        "keybind": "key.openNotes"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,470 @@
+{
+    "saffron.guide.name": "Saffron Guide",
+    "saffron.guide.landing_text": "Welcome to Saffron.$(br2)There is so much to discover in this modpack. This book will help you not to miss all the cool features the pack offers.",
+
+    "saffron.guide.category_intro.name": "Introduction",
+    "saffron.guide.category_intro.description": "As you know, there is no quest line in Saffron. You can just do whatever you would do in Vanilla: explore the world, build fancy things, … - you know.$(br2)Here you get a brief introduction. It's recommended to read this carefully as it really helps you out later on. Don't worry, it won't take long.",
+
+    "saffron.guide.category_tips.name": "Tips",
+    "saffron.guide.category_tips.description": "Here you can see an overview of all the tips - you probably have already seen some of them on the bottom left on loading screens. Reading them is completely optional, but you will learn many cool tips and tricks, which overall improve your quality of life. If you like figuring out things by yourself, there is still a lot to discover, so don't think that's all.",
+
+    "saffron.guide.jei.name": "Just Enough Items (JEI)",
+    "saffron.guide.jei.1": "Just Enough Items (JEI) is a mod which allows you to look up recipes and other useful stuff.$(br2)When opening your inventory, you can see a list of all the items in the game.$(br2)You can toggle the visibility of that list by pressing \"%s\".",
+    "saffron.guide.jei.2": "You can left-click an item to see how it's crafted, or right-click it to see recipes using the item. When hovering over an item in an inventory, you can press \"%s\" and \"%s\" keys to do that.$(br2)There is also a search bar. You can search for an item's name or for its tooltip (the text below it).$(br2)Use \"@\" to search for a mod (for example, \"@quark\" shows all items from the mod Quark).$(br)$(thing)Next page >>>>>>>>",
+    "saffron.guide.jei.3": "If you don't want to search for an item again and again, you can bookmark it by hovering over it and pressing \"%s\". This puts it on a panel on the left side.$(br2)Another cool thing is that some items have an Info Tab attached to them when you look at their recipes. In there, you can find information like how to get an item that isn't craftable or how to use the item.",
+    "saffron.guide.jei.4": "If you want to use items in Creative mode, \"%s\"-click on the config button next to the search bar. This way, you can take the items out of the list, like you can from the Creative inventory.",
+    
+    "saffron.guide.navigation.name": "Minimap and Worldmap",
+    "saffron.guide.navigation.1": "The minimap (from Xaero's Minimap) should show up in the top left corner of your screen. It gives information about your current location and can be configured to your liking by pressing \"%s\". The worldmap (from Xaero's Worldmap) can be viewed by pressing \"%s\". It shows you the previously visited terrain.",
+    "saffron.guide.navigation.2": "To save the position of certain places, you can create a waypoint by pressing \"%s\". A list of all waypoints can be shown by pressing \"%s\". You can delete them there, share them with your friends, or even teleport to them (if you are allowed to use commands). If you don't want the waypoints to obstruct your view, toggle them on and off by pressing \"%s\".",
+    
+    "saffron.guide.settings.name": "Game Settings",
+    "saffron.guide.settings.1": "You might want to change a few settings first. Go into Minecraft's \"Options...\" to do that.$(br2)If you are on a lower-end computer, you might want to decrease the \"Render Distance\" in the \"Video Settings\" and change the \"Graphics\" from \"Fancy\" to \"Fast\".",
+    "saffron.guide.settings.2": "If you want the game to be a bit brighter, try increasing your \"Brightness\" in the \"Video Settings\". It can go up to 1200%, at which point you can basically see everything.$(br2)If you don't like the darker GUIs, and you prefer the Vanilla look, go into \"Resource Packs\", and disable \"Saffron Dark\" and \"Unity Dark\".$(br2)$(br2)$(br)$(thing)Next page >>>>>>>>",
+    "saffron.guide.settings.3": "Change the \"Keybinds\" under \"Controls\" to your liking. You might even find useful shortcuts, you haven't heard about before. Most information texts featuring keybinds should adapt to your changes. Those which don't are in [square brackets].",
+    
+    "saffron.guide.outro.name": "Last Words",
+    "saffron.guide.outro.1": "If you want to keep reading, you will probably like the \"Animal Dictionary\". It contains much information about different animals.$(br2)You can also read the chapter \"Tips\" from the Saffron Guide. This is a collection of useful tips, you will probably be happy to have heard about. You can also see these tips on the bottom left on loading screens.",
+    "saffron.guide.outro.2": "Along the information provided by the guides, you should definitely try out things by yourself (there is much to discover!). This is where the fun begins. With that being said, have fun and enjoy your time playing Saffron!",
+
+
+
+    "saffron.tooltip.disabled": "Disabled. Please do not use.",
+
+    "saffron.tooltip.player_head": "Obtainable in Survival",
+    "saffron.info.player_head": "Use a Name Tag to name a Snow Golem like a player. When it is killed by a Witch, it will drop the head of that player.",
+
+    "saffron.tooltip.golden_hopper": "Integrated filter",
+
+    "saffron.tooltip.copper_patina": "Alternative to Redstone",
+    "saffron.info.copper_patina": "It can be obtained by scraping off the oxidation layer from Copper Blocks.",
+
+    "saffron.tooltip.wrench": "Rotates blocks",
+
+    "saffron.tooltip.angel_block": "Used for building in the sky",
+
+    "saffron.tooltip.naturescompass": "Locates biomes",
+    "saffron.info.naturescompass": "Locating height specific biomes might require you to be on a y-level, the biome can spawn on. So locating underground biomes requires you to be below y-level 0.",
+
+    "saffron.tooltip.pendorite_ingot": "Better than Netherite",
+
+    "saffron.tooltip.glass_item_frame": "Becomes invisible when items are put into it",
+
+    "saffron.tooltip.feeding_trough": "Automates breeding",
+
+    "saffron.tooltip.chute": "Automatic Dropper pointing downwards",
+
+    "saffron.tooltip.ender_watcher": "Emits a Redstone signal when a player is looking at it",
+
+    "saffron.tooltip.structured_crafter": "Automates crafting",
+    "saffron.info.structured_crafter": "Tries one craft per second when powered. Pace a container like a Chest as output on the side the arrow is pointing at. On the other side, you can place containers in a 3 by 3 as input. Instead of containers, blocks can also be placed down directly.",
+
+    "saffron.tooltip.cog_block": "Alternative to Redstone working in every direction",
+
+    "saffron.tooltip.relayer": "Transfers a Redstone signal to the chosen direction (like a Comparator)",
+
+    "saffron.tooltip.spring_launcher": "Launches up entities",
+
+    "saffron.tooltip.turn_table": "Rotates entities or blocks when activated by Redstone",
+
+    "saffron.tooltip.redstone_illuminator": "Inverted Redstone Lamp",
+
+    "saffron.tooltip.quiver": "Stores Arrows and lets you choose which one to shoot",
+
+    "saffron.tooltip.cage": "Captures small mobs",
+
+    "saffron.tooltip.speaker_block": "Sends a message to nearby players when activated by Redstone",
+
+    "saffron.tooltip.bellows": "Pushes entities in front of it away when activated by Redstone",
+
+    "saffron.tooltip.crank": "Analog Lever",
+    
+    "saffron.tooltip.trowel": "Places a random block from your hotbar",
+
+    "saffron.tooltip.tool_belt": "Allows storing multiple tools and accessing them quickly",
+    "saffron.info.tool_belt": "A Tool Belt can hold any non-stackable item. By default, you have two slots, but you can combine it with Belt Pouches in an Anvil to get up to nine. Quickly switch between tools using the handy radial menu. The Tool Belt can be equipped by pressing [v] and you can open the menu by pressing [r].",
+
+    "saffron.tooltip.trading_post": "Allows trading with all nearby Villagers at once",
+
+    "saffron.tooltip.totem_of_void_undying": "Saves you from dying to the void (only the void)",
+
+    "saffron.tooltip.enchanting_infuser": "Allows choosing enchantments",
+
+    "saffron.tooltip.advanced_enchanting_infuser": "Allows obtaining ALL enchantments. Also allows enchanting Books as well as previously enchanted items.",
+
+    "saffron.tooltip.dispenser": "Can place blocks",
+
+    "saffron.tooltip.iron_rod": "Can break blocks when attached to a Piston",
+
+    "saffron.tooltip.sturdy_stone": "Cannot be moved by Pistons",
+
+    "saffron.tooltip.chunk_loader": "[Right-click] to select chunks to forceload",
+
+    "saffron.info.boat": "Use a Chest on a Boat to get a Chest Boat. Also works with different combinations.",
+
+    "saffron.tooltip.totem": "Works from the whole inventory",
+
+    "saffron.tooltip.honey_apple": "Cures Levitation",
+
+    "saffron.tooltip.honey_bread": "Cures Bad Omen",
+
+    "saffron.tooltip.glazed_porkchop": "Cures Mining Fatigue",
+
+    "saffron.tooltip.sleeping_bag": "Doesn't set your spawnpoint",
+
+    "saffron.tooltip.hammock": "Allows skipping the day",
+    "saffron.info.hammock": "Place two pieces of Rope and Nail on opposite walls with a 4 block gap between. Then use a Hammock one of them with to place it.",
+
+    "saffron.info.elevator": "When jumping on an Elevator, you travel to the Elevator above it. When sneaking, you travel to the Elevator below it.",
+
+    "saffron.info.drawer_frame_3": "Craft the Framed Drawer together with up to 3 blocks to give it a nice look. The Drawer has to be on the bottom right. Also try different orders.",
+    "saffron.info.drawer_frame_2": "Craft the Framed Drawer together with up to 2 blocks to give it a nice look. The blocks need to be on the top and on the top left of the Drawer. Also try different orders.",
+
+    "saffron.info.framed_block": "Use any full block on a Framed Block to get a block with texture of that block and the shape of the Framed Block. You can also just place a Framed Block with the other block in your offhand. Use Glowstone Dust on Framed Blocks to make them produce light.",
+
+    "saffron.info.framed_hammer": "Use on a Framed Block to remove its camouflage.",
+
+    "saffron.info.framed_wrench": "Use on a Framed Block to rotate it.",
+
+    "saffron.info.framed_blueprint": "Use on a Framed Block to copy the state of it. Placing the Framed Blueprint now places the block you copied. This allows placing many equal blocks very quick.",
+
+    "saffron.info.framed_key": "Use on a Framed Block to lock it in its current shape. This allows placing blocks in configurations that would not be possible with the desired neighbors (e.g. connecting stairs).",
+
+    "saffron.info.framed_screwdriver": "Use on a Framed Block to cycle through its different states.",
+
+    "saffron.info.framed_reinforcement": "Use on a Framed Block to make it blast-proof.",
+
+    "saffron.info.timber_frame": "Use any full block on it to place it inside. This will result in a combination texture.",
+
+    "saffron.info.wrappist": "Find Wrappist geodes in the End.",
+
+    "saffron.tooltip.obsidian_pressure_plate": "Only activates by players",
+
+    "saffron.info.gravisand": "Won't fall unless powered by Redstone. If it can't fall, it will float up. Constantly outputs a Redstone signal of 15.",
+
+    "saffron.info.redstone_randomizer": "When it receives a Redstone input from the back, it will output the signal randomly either to the left or to the right.",
+
+    "saffron.info.seed_pouch": "A Seed Pouch can store may seeds of one type. When using a Seed Pouch to place them down while sneaking, you plant them in a 3 by 3 area.",
+
+    "saffron.tooltip.abacus": "Counts the distance between two blocks",
+
+    "saffron.tooltip.grate": "Items can fall through, but animals not",
+
+    "saffron.info.hoe_harvest": "Use a Hoe on fully grown crops to harvest and replant in a 3 by 3 area. Diamond Hoes or better can harvest in a 5 by 5 area.",
+
+    "saffron.info.slime_in_a_bucket": "Capture a tiny Slime with a Bucket. If you are in a slime-chunk, the Slime will start jumping inside.",
+
+    "saffron.info.diamond_heart": "Stonelings spawn in the deep underground. They will get startled if you get too close to them without sneaking and holding a Diamond to tempt them.",
+
+    "saffron.info.colored_rune": "Combine with any enchanted item in an Anvil to change the enchantment glint of it (purple by default) to the color of the Rune.",
+
+    "saffron.info.rainbow_rune": "Combine with any enchanted item in an Anvil to make the enchantment glint of it like an RGB wave animation.",
+
+    "saffron.info.blank_rune": "Combine with any enchanted item in an Anvil to remove the enchantment glint of it.",
+
+    "saffron.info.ambient_disc": "Ambient Discs are dropped when a Skeleton kills a Spider.",
+
+    "saffron.info.stool": "Players can sit on Stools while they are being moved by a Piston. This can be great for travelling.",
+
+    "saffron.info.poisonous_potato": "When feeding Poisonous Potatoes to baby animals, they have a chance to get poisoned. When this happens, they will never become an adult.",
+
+    "saffron.info.rainbow_lamp": "A Redstone Lamp which changes color dependent on its Redstone input. [Right-click] them while not powered to cycle through all colors.",
+
+    "saffron.info.lock_block": "Can be locked by a Key. Once a player which holds the correct Key interacts with it, it will emit a Redstone signal.",
+
+    "saffron.info.lockable": "Can be locked by a Key. Only players with the correct Key or players in Creative mode can interact with it.",
+
+    "saffron.info.gold_door": "Players can't interact with it when it is powered. Otherwise, they behave like the wooden variant.",
+
+    "saffron.info.flute": "Use a Flute to summon nearby non-sitting owned pets to you. Can also be bound to a specific pet. Plays a nice little song when used.",
+
+    "saffron.info.crystal_display": "When powered, displays a number or a symbol depending on what the received signal strength.",
+
+    "saffron.info.blackboard": "Draw on it with dyes or chalk. Will keep its drawing when broken. A Blackboard can be duplicated just like a Banner. Clear it using Wet Sponge.",
+
+    "saffron.info.wind_vane": "Outputs a Redstone signal of 1 when raining and a signal of 2 when thundering.",
+
+    "saffron.tooltip.ametrine_block": "Can be used in a Beacon pyramid",
+
+    "saffron.tooltip.ancient_city": "There are no Ancient Cities in the modpack",
+
+    "saffron.tooltip.waystone": "Teleport from and to other Waystones using XP",
+
+    "saffron.tooltip.infinite_water": "Like a Water Bucket in Creative mode",
+
+    "saffron.info.bench": "Use a Hammer on a Bench to remove its rest.",
+
+    "saffron.info.hypogeal_imperium": "When powering a Hypogeal Imperium with Subzero Crystal Shards, it will decrease the surrounding temperature. Water turns into Ice and Lava into Obsidian. Use Subzero Crystal Clusters to increase its range.",
+    
+    "saffron.info.ametrine": "Ametrine generates in the end in the Shattered Viscal Islands around y-level 200, so pretty high up. Use a Nature's Compass above y-level 180 to locate that biome.",
+
+    "saffron.info.pendorite_ore": "Pendorite Ore generates in the Nether in the Embur Bog biome below y-level 54. Use a Nature's Compass to locate that biome.",
+
+    "saffron.info.emeraldite_ore": "Emeraldite Ore generates in the Nether in the Wailing Garth biome. Use a Nature's Compass to locate that biome.",
+
+    "saffron.info.weeds": "Weeds will grow on Farmland exposed to the sky and make your harvests worse. Build a glasshouse to prevent Weeds from growing, or use Mulch instead of Farmland. It doesn't even require Water",
+    
+    "saffron.info.end_portal": "Place End Portal Frames from the center of the End Portal. So don't move, just rotate while placing. Otherwise, it won't work.",
+
+    "saffron.info.cobble_gen": "Cobblestone generates when flowing Lava comes in contact with flowing Water.",
+
+    "saffron.info.basalt_gen": "Basalt generates when flowing Lava comes in contact with Blue Ice and is above Soul Soil.",
+
+    "saffron.info.name_tag": "Mobs can still despawn after picking up items. If you don't want them to despawn, give them a name using a Name Tag.",
+
+
+    "saffron.entry.additional_reach": "Additional Reach",
+    "saffron.tip.additional_reach": "Forgottens can be found underground. Their hat lets you place and break blocks a bit further away.",
+
+    "saffron.entry.all_the_enchantments": "All the Enchantments",
+    "saffron.tip.all_the_enchantments": "With an Advanced Enchanting Infuser, you can get even more enchantments and enchant items that already have enchantments on them.",
+
+    "saffron.entry.alternative_redstone": "Alternative Redstone",
+    "saffron.tip.alternative_redstone": "Scrape off the oxidation layer from Copper Blocks to get Copper Patina. It can be used as an alternative to Redstone while not interfering with it.",
+
+    "saffron.entry.ancient_tomes": "Ancient Tomes",
+    "saffron.tip.ancient_tomes": "Ancient Tomes allow you to bring enchantments to one further level than the default maximum.",
+
+    "saffron.entry.automated_block_breaking": "Automated Block Breaking",
+    "saffron.tip.automated_block_breaking": "Attach an Iron Rod to a Sticky Piston to make it break blocks. No need of TNT for automatic block farms.",
+
+    "saffron.entry.automated_block_placing": "Automated Block Placing",
+    "saffron.tip.automated_block_placing": "Dispensers can place blocks.",
+
+    "saffron.entry.automated_breeding": "Automated Breeding",
+    "saffron.tip.automated_breeding": "Use a Feeding Trough to automatically feed animals, making them breed on their own.",
+
+    "saffron.entry.automated_crafting": "Automated Crafting",
+    "saffron.tip.automated_crafting": "A Structured Crafter can be used to fully automate crafting.",
+
+    "saffron.entry.automated_messages": "Automated Messages",
+    "saffron.tip.automated_messages": "Speaker Blocks can send messages to nearby players.",
+
+    "saffron.entry.blocks_on_lily_pads": "Blocks on Lily Pads",
+    "saffron.tip.blocks_on_lily_pads": "You can place blocks on top of Lily Pads.",
+
+    "saffron.entry.boats_with_chests": "Boats with Chests",
+    "saffron.tip.boats_with_chests": "Press \"%s\" on any Boat with any Chest to give it storage.",
+
+    "saffron.entry.building_in_the_sky": "Building in the Sky",
+    "saffron.tip.building_in_the_sky": "An Angel Block can be placed midair or in the water. It is great for building in the sky or in an ocean.",
+
+    "saffron.entry.bundle": "Bundle",
+    "saffron.tip.bundle": "Use a Bundle to store a variety of items in a single inventory slot.",
+
+    "saffron.entry.capturing_animals": "Capturing Animals",
+    "saffron.tip.capturing_animals": "Use Cages or Jars to capture small animals.",
+
+    "saffron.entry.chalk": "Chalk",
+    "saffron.tip.chalk": "Chalk can be used to mark your way home when exploring.",
+
+    "saffron.entry.chosen_enchantments": "Chosen Enchantments",
+    "saffron.tip.chosen_enchantments": "Using Enchanting Infusers, enchanting isn't gambling anymore. You can choose the enchantments you like.",
+
+    "saffron.entry.colored_grass": "Colored Grass",
+    "saffron.tip.colored_grass": "Turf looks like a Grass Block, but it can be dyed. It is great for building magical regions.",
+
+    "saffron.entry.colored_item_glint": "Colored Item Glint",
+    "saffron.tip.colored_item_glint": "Runes allow you to change the purple enchantment glint to a different color.",
+
+    "saffron.entry.counting_blocks": "Counting Blocks",
+    "saffron.tip.counting_blocks": "The Abacus is used to count the distance between two blocks. After \"%s\"-clicking a block, it will show you the distance to the one you are looking at.",
+
+    "saffron.entry.crawling": "Crawling",
+    "saffron.tip.crawling": "Press \"%s\" to crawl. Crawling is great for getting through one block high gaps.",
+
+    "saffron.entry.customizable_beds": "Customizable Beds",
+    "saffron.tip.customizable_beds": "Craft your Bed together with a Banner to customize it.",
+
+    "saffron.entry.diagonal_fences": "Diagonal Fences",
+    "saffron.tip.diagonal_fences": "Fences can also connect diagonally.",
+
+    "saffron.entry.elevators": "Elevators",
+    "saffron.tip.elevators": "Use Elevators to quickly travel in the vertical direction.",
+
+    "saffron.entry.elytra_duplication": "Elytra Duplication",
+    "saffron.tip.elytra_duplication": "Dragon Scales, which are obtained by killing a respawned Ender Dragon, are used to duplicate an Elytra.",
+
+    "saffron.entry.elytra_takeoff": "Elytra Takeoff",
+    "saffron.tip.elytra_takeoff": "You can take off by Elytra with a Firework Rocket without needing to jump before.",
+
+    "saffron.entry.enchantment_reroll": "Enchantment Reroll",
+    "saffron.tip.enchantment_reroll": "Take an item out of the Enchantment Table and put it back in to reroll the enchantments.",
+
+    "saffron.entry.enchantment_transfer": "Enchantment Transfer",
+    "saffron.tip.enchantment_transfer": "Put an enchanted item in the first slot of an Anvil and a Book in the second to transfer the enchantments onto the Book without the item being lost.",
+
+    "saffron.entry.faster_furnaces": "Faster Furnaces",
+    "saffron.tip.faster_furnaces": "Foxhounds can be found in the Nether and tamed with Coal, but you'll need Fire Resistance too. If they sit on a Furnace, it will go faster.",
+
+    "saffron.entry.framed_blocks": "Framed Blocks",
+    "saffron.tip.framed_blocks": "Framed Blocks allow you to turn all blocks into several shapes which wouldn't be accessible otherwise, for example a Diamond Slab.",
+
+    "saffron.entry.frozen_crops": "Frozen Crops",
+    "saffron.tip.frozen_crops": "Place Ice, Packed Ice or Blue Ice beneath Farmland to prevent the crops on it from growing.",
+
+    "saffron.entry.forever_young": "Forever Young",
+    "saffron.tip.forever_young": "When feeding Poisonous Potatoes to baby animals, they have a chance to get poisoned. When this happens, they will never become an adult.",
+
+    "saffron.entry.hyper_speed": "Hyper Speed",
+    "saffron.tip.hyper_speed": "When feeding Seeds to a Jerboa, you will get the effect Fleet Footed, which allows you to sprint-jump very fast. Find out more about the Jerboa in the Animal Dictionary.",
+
+    "saffron.entry.infinite_water": "Infinite Water Bucket",
+    "saffron.tip.infinite_water": "An Infinite Water Bucket will never run out of water. It is like using a Water Bucket in Creative mode.",
+
+    "saffron.entry.infinity_without_arrow": "Infinity without Arrow",
+    "saffron.tip.infinity_without_arrow": "You don't need to have an Arrow in your inventory to use a Bow enchanted with Infinity.",
+
+    "saffron.entry.inventory_totem": "Inventory Totem",
+    "saffron.tip.inventory_totem": "Totems of Undying will activate from anywhere in your inventory.",
+
+    "saffron.entry.invisible_item_frames": "Invisible Item Frames",
+    "saffron.tip.invisible_item_frames": "Glass Item Frames become invisible when you put an item into them.",
+
+    "saffron.entry.invisible_lights": "Invisible Lights",
+    "saffron.tip.invisible_lights": "A Feral Flare Lantern places invisible lights and will light up your base over time, it is great if you don't like to place light sources everywhere.",
+
+    "saffron.entry.item_filter": "Item Filter",
+    "saffron.tip.item_filter": "Use Golden Hoppers and Golden Hopper Minecarts to apply a filter directly to the Hopper.",
+
+    "saffron.entry.item_sharing": "Item Sharing",
+    "saffron.tip.item_sharing": "Press \"%s + %s\" while hovering over an item in an inventory to link that item to chat.",
+
+    "saffron.entry.light_overlay": "Light Overlay",
+    "saffron.tip.light_overlay": "Press \"%s\" to mark red spots where mobs can spawn, and yellow spots where mobs can only spawn at night.",
+
+    "saffron.entry.luring_villagers": "Luring Villagers",
+    "saffron.tip.luring_villagers": "Villagers follow players holding Emerald Blocks, like Sheep follow players holding Wheat.",
+
+    "saffron.entry.mass_block_placement": "Mass Block Placement",
+    "saffron.tip.mass_block_placement": "Construction Wands allow you to place many blocks at the same time, speeding up large builds.",
+
+    "saffron.entry.moving_block_entities": "Moving Block Entities",
+    "saffron.tip.moving_block_entities": "You can move block entities like Chests with a Piston. If you want a cheap immovable block, use Sturdy Stone.",
+
+    "saffron.entry.muffling_sounds": "Muffling Sounds",
+    "saffron.tip.muffling_sounds": "If some sounds annoy you, you can just mute them by clicking on the Muffler button in your inventory and searching for them. Shut up, Villagers!",
+
+    "saffron.entry.natures_compass": "Nature's Compass",
+    "saffron.tip.natures_compass": "Use a Nature's Compass to locate your favorite Biomes.",
+
+    "saffron.entry.no_pumpkin_overlay": "No Pumpkin Overlay",
+    "saffron.tip.no_pumpkin_overlay": "Enchant a Carved Pumpkin with Curse of Vanishing to remove its annoying overlay.",
+
+    "saffron.entry.notes": "Notes",
+    "saffron.tip.notes": "Press \"%s\" to make notes.",
+
+    "saffron.entry.pickarang": "Pickarang",
+    "saffron.tip.pickarang": "A Pickarang is a fantastic tool for breaking blocks which are far away from you. It can also be used as a weapon.",
+
+    "saffron.entry.picking_up_entities": "Picking up Entities",
+    "saffron.tip.picking_up_entities": "\"%s + %s\"-click small entities or block entities like Chests with empty hands to pick them up and place them somewhere else.",
+
+    "saffron.entry.pig_litters": "Pig Litters",
+    "saffron.tip.pig_litters": "When breeding Pigs, they will have several children.",
+
+    "saffron.entry.placeable_blocks": "Placeable Blocks",
+    "saffron.tip.placeable_blocks": "Try placing Lanterns on walls or Books and Sticks on the ground.",
+
+    "saffron.entry.player_armor_stands": "Player Armor Stands",
+    "saffron.tip.player_armor_stands": "Player Heads enchanted with Curse of Binding make an entire Armor Stand look like that player.",
+
+    "saffron.entry.player_heads": "Player Heads",
+    "saffron.tip.player_heads": "If you name a Snow Golem like a player, it will drop the head of that player when killed by a Witch.",
+
+    "saffron.entry.portable_workstations": "Portable Workstations",
+    "saffron.tip.portable_workstations": "Some workstations like Crafting Tables can be put on a Stick, so you don't have to place them down to interact with them.",
+
+    "saffron.entry.quick_beacon_pyramid": "Quick Beacon Pyramid",
+    "saffron.tip.quick_beacon_pyramid": "\"%s + %s\"-click blocks onto a Beacon to quickly build a Beacon Pyramid. Also works for Conduits.",
+
+    "saffron.entry.quiver": "Quiver",
+    "saffron.tip.quiver": "A Quiver stores Arrows and lets you choose which one to shoot",
+
+    "saffron.entry.rainbow_lamp": "Rainbow Lamp",
+    "saffron.tip.rainbow_lamp": "Rainbow Lamps are Redstone Lamps which change their color depending on the Redstone input. You can \"%s\"-click them while not powered to cycle through all the colors.",
+
+    "saffron.entry.random_block_placement": "Random Block Placement",
+    "saffron.tip.random_block_placement": "A Trowel will place any block from your hotbar, randomizing block placement.",
+
+    "saffron.entry.redirecting_beacons": "Redirecting Beacons",
+    "saffron.tip.redirecting_beacons": "Corundum Clusters redirect Beacon Beams in the direction they are facing. The last one has to face up, though, otherwise it won't work.",
+
+    "saffron.entry.refill": "Refill",
+    "saffron.tip.refill": "Shulker Boxes enchanted with Refill automatically refill your hotbar with the item you use if there is one in the Shulker Box.",
+
+    "saffron.entry.repairing_items": "Repairing Items",
+    "saffron.tip.repairing_items": "\"%s + %s\"-click with a tool enchanted with Mending to repair it with your experience.",
+
+    "saffron.entry.ring_of_attraction": "Ring of Attraction",
+    "saffron.tip.ring_of_attraction": "The Ring of Attraction is a magnet which can pull nearby items to you.",
+
+    "saffron.entry.ring_of_enderchest": "Ring of Enderchest",
+    "saffron.tip.ring_of_enderchest": "The Ring of Enderchest allows you to access your Ender Chest without having to place it down.",
+
+    "saffron.entry.rotating_blocks": "Rotating Blocks",
+    "saffron.tip.rotating_blocks": "Use a Copper Wrench to rotate blocks without having to break and replace them.",
+
+    "saffron.entry.sawmill": "Sawmill",
+    "saffron.tip.sawmill": "The Sawmill is like a Stonecutter for wooden blocks. Besides being faster than regular crafting, you even save materials in some recipes.",
+
+    "saffron.entry.searching_for_items": "Searching for Items",
+    "saffron.tip.searching_for_items": "Hover over an item and press \"%s\" to search for it in nearby containers.",
+
+    "saffron.entry.seed_pouch": "Seed Pouch",
+    "saffron.tip.seed_pouch": "A Seed Pouch makes planting crops easier.",
+
+    "saffron.entry.simple_storage_network": "Simple Storage Network",
+    "saffron.tip.simple_storage_network": "Use Simple Storage Network to access all items from a single point. When using a Storage Remote, you can even access them from literally anywhere.",
+
+    "saffron.entry.siphon": "Siphon",
+    "saffron.tip.siphon": "Shulker Boxes enchanted with Siphon automatically pick up dropped items if there are already some of that type in them.",
+
+    "saffron.entry.skipping_the_day": "Skipping the Day",
+    "saffron.tip.skipping_the_day": "Hammocks are used to skip the day, like Beds are used to skip the night.",
+
+    "saffron.entry.sleeping_bags": "Sleeping Bags",
+    "saffron.tip.sleeping_bags": "Sleeping Bags allow you to skip the night without setting your spawn point. They are great for sleeping on exploration tours.",
+
+    "saffron.entry.slime_chunk_locating": "Slime Chunk Locating",
+    "saffron.tip.slime_chunk_locating": "Buckets of Slime make locating slime chunks easier.",
+
+    "saffron.entry.step_up": "Step up",
+    "saffron.tip.step_up": "Enchant your Boots with Step to step up full blocks automatically like you can step up slabs. Much better than Auto Jump!",
+
+    "saffron.entry.sticky_chains": "Sticky Chains",
+    "saffron.tip.sticky_chains": "When moved by Pistons, Chains behave similar to Slime Blocks, but they only connect to the blocks on their ends.",
+
+    "saffron.entry.stop_mobs_spawning": "Stop Mobs Spawning",
+    "saffron.tip.stop_mobs_spawning": "A Mega Torch prevents natural spawning of hostile mobs in a large area, while a Dread Lamp prevents passive mobs from spawning.",
+
+    "saffron.entry.storage_drawers": "Storage Drawers",
+    "saffron.tip.storage_drawers": "Storage Drawers can store many items of one type. They are great for storing items you have in large quantities.",
+
+    "saffron.entry.stronger_pistons": "Stronger Pistons",
+    "saffron.tip.stronger_pistons": "Pistons can push up to 24 blocks.",
+
+    "saffron.entry.teleportation": "Teleportation",
+    "saffron.tip.teleportation": "Waystones can be found in Villages. You can teleport from one Waystone to another. The only downside of it is that using them costs XP-levels.",
+
+    "saffron.entry.tool_belt": "Tool Belt",
+    "saffron.tip.tool_belt": "Carry your tools in a Tool Belt. This way they don't occupy that much space in your hotbar, but you can still access them quickly.",
+
+    "saffron.entry.trading_post": "Trading Post",
+    "saffron.tip.trading_post": "Use a Trading Post to trade with all nearby Villagers at once.",
+
+    "saffron.entry.upside_down_hoppers": "Upside-down Hoppers",
+    "saffron.tip.upside_down_hoppers": "Uppers are upside-down Hoppers.",
+
+    "saffron.entry.vertical_redstone": "Vertical Redstone",
+    "saffron.tip.vertical_redstone": "Cog Blocks are an alternative to Redstone working in every direction.",
+
+    "saffron.entry.void_totem": "Void Totem",
+    "saffron.tip.void_totem": "The Totem of Void Undying teleports you onto a near end island when falling into the void.",
+
+    "saffron.entry.watering_can": "Watering Can",
+    "saffron.tip.watering_can": "Use a Watering Can to make crops reliably grow faster.",
+    
+    "saffron.entry.zombifying_villagers": "Zombifying Villagers",
+    "saffron.tip.zombifying_villagers": "Villagers will always turn into Zombie Villagers when they are killed by Zombies, no matter the difficulty."
+}

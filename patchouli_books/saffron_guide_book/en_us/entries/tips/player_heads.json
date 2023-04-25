@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.player_heads",
+    "icon": "minecraft:player_head",
+    "category": "patchouli:tips",
+    "sortnum": 330,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.player_heads"
+            }
+        }
+    ]
+}

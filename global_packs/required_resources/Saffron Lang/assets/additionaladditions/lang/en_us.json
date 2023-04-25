@@ -1,0 +1,16 @@
+{
+    "item.additionaladditions.wrench": "Copper Wrench",
+    
+    "item.minecraft.potion.effect.glow_potion": "Potion of Glowing",
+    "item.minecraft.potion.effect.long_glow_potion": "Potion of Glowing",
+    "item.minecraft.potion.effect.strong_glow_potion": "Potion of Glowing",
+    "item.minecraft.splash_potion.effect.glow_potion": "Splash Potion of Glowing",
+    "item.minecraft.splash_potion.effect.long_glow_potion": "Splash Potion of Glowing",
+    "item.minecraft.splash_potion.effect.strong_glow_potion": "Splash Potion of Glowing",
+    "item.minecraft.lingering_potion.effect.glow_potion": "Lingering Potion of Glowing",
+    "item.minecraft.lingering_potion.effect.long_glow_potion": "Lingering Potion of Glowing",
+    "item.minecraft.lingering_potion.effect.strong_glow_potion": "Lingering Potion of Glowing",
+    "item.minecraft.tipped_arrow.effect.glow_potion": "Arrow of Glowing",
+    "item.minecraft.tipped_arrow.effect.long_glow_potion": "Arrow of Glowing",
+    "item.minecraft.tipped_arrow.effect.strong_glow_potion": "Arrow of Glowing"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "saffron.entry.crawling",
+    "icon": "minecraft:oak_trapdoor",
+    "category": "patchouli:tips",
+    "sortnum": 20,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.crawling",
+                "with": [
+                    {
+                        "keybind": "key.personality.crawl"
+                    }
+                ]
+            }
+        }
+    ]
+}

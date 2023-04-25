@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.automated_block_breaking",
+    "icon": "quark:iron_rod",
+    "category": "patchouli:tips",
+    "sortnum": 95,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.automated_block_breaking"
+            }
+        }
+    ]
+}

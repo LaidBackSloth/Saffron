@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.invisible_item_frames",
+    "icon": "quark:glass_item_frame",
+    "category": "patchouli:tips",
+    "sortnum": 320,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.invisible_item_frames"
+            }
+        }
+    ]
+}

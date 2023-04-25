@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.colored_item_glint",
+    "icon": "quark:yellow_rune",
+    "category": "patchouli:tips",
+    "sortnum": 400,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.colored_item_glint"
+            }
+        }
+    ]
+}

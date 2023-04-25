@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.forever_young",
+    "icon": "minecraft:poisonous_potato",
+    "category": "patchouli:tips",
+    "sortnum": 430,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.forever_young"
+            }
+        }
+    ]
+}

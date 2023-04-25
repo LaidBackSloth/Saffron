@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.faster_furnaces",
+    "icon": "minecraft:furnace",
+    "category": "patchouli:tips",
+    "sortnum": 340,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.faster_furnaces"
+            }
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.portable_workstations",
+    "icon": "crafting_on_a_stick:crafting_table",
+    "category": "patchouli:tips",
+    "sortnum": 155,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.portable_workstations"
+            }
+        }
+    ]
+}

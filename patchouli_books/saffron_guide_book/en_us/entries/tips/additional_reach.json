@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.additional_reach",
+    "icon": "quark:forgotten_hat",
+    "category": "patchouli:tips",
+    "sortnum": 280,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.additional_reach"
+            }
+        }
+    ]
+}

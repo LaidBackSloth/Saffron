@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.enchantment_reroll",
+    "icon": "minecraft:enchanting_table",
+    "category": "patchouli:tips",
+    "sortnum": 190,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.enchantment_reroll"
+            }
+        }
+    ]
+}

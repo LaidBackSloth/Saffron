@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.placeable_blocks",
+    "icon": "minecraft:book",
+    "category": "patchouli:tips",
+    "sortnum": 395,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.placeable_blocks"
+            }
+        }
+    ]
+}

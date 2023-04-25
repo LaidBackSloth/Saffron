@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.stop_mobs_spawning",
+    "icon": "torchmaster:megatorch",
+    "category": "patchouli:tips",
+    "sortnum": 55,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.stop_mobs_spawning"
+            }
+        }
+    ]
+}

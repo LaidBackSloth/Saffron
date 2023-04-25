@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.ring_of_attraction",
+    "icon": "ring_of_attraction:ring_of_attraction",
+    "category": "patchouli:tips",
+    "sortnum": 165,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.ring_of_attraction"
+            }
+        }
+    ]
+}

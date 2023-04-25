@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.capturing_animals",
+    "icon": "supplementaries:cage",
+    "category": "patchouli:tips",
+    "sortnum": 50,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.capturing_animals"
+            }
+        }
+    ]
+}

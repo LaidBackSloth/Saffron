@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.no_pumpkin_overlay",
+    "icon": "minecraft:carved_pumpkin",
+    "category": "patchouli:tips",
+    "sortnum": 260,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.no_pumpkin_overlay"
+            }
+        }
+    ]
+}

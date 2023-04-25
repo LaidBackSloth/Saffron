@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.tool_belt",
+    "icon": "toolbelt:belt",
+    "category": "patchouli:tips",
+    "sortnum": 150,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.tool_belt"
+            }
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.automated_breeding",
+    "icon": "quark:feeding_trough",
+    "category": "patchouli:tips",
+    "sortnum": 105,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.automated_breeding"
+            }
+        }
+    ]
+}

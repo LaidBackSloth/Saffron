@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.mass_block_placement",
+    "icon": "constructionwand:diamond_wand",
+    "category": "patchouli:tips",
+    "sortnum": 170,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.mass_block_placement"
+            }
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.pig_litters",
+    "icon": "minecraft:pig_spawn_egg",
+    "category": "patchouli:tips",
+    "sortnum": 110,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.pig_litters"
+            }
+        }
+    ]
+}

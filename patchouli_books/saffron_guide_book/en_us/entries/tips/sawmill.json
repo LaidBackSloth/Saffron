@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.sawmill",
+    "icon": "corail_woodcutter:oak_woodcutter",
+    "category": "patchouli:tips",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.sawmill"
+            }
+        }
+    ]
+}

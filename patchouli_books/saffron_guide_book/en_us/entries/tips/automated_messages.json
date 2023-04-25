@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.automated_messages",
+    "icon": "supplementaries:speaker_block",
+    "category": "patchouli:tips",
+    "sortnum": 420,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.automated_messages"
+            }
+        }
+    ]
+}

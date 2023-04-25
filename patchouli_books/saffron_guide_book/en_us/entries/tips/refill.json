@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.refill",
+    "icon": "minecraft:yellow_shulker_box",
+    "category": "patchouli:tips",
+    "sortnum": 145,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.refill"
+            }
+        }
+    ]
+}

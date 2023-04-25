@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.simple_storage_network",
+    "icon": "storagenetwork:master",
+    "category": "patchouli:tips",
+    "sortnum": 125,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.simple_storage_network"
+            }
+        }
+    ]
+}

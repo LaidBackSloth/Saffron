@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.slime_chunk_locating",
+    "icon": "quark:slime_in_a_bucket",
+    "category": "patchouli:tips",
+    "sortnum": 245,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.slime_chunk_locating"
+            }
+        }
+    ]
+}

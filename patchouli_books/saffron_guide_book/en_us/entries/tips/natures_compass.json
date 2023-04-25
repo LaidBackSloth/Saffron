@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.natures_compass",
+    "icon": "naturescompass:naturescompass",
+    "category": "patchouli:tips",
+    "sortnum": 240,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.natures_compass"
+            }
+        }
+    ]
+}

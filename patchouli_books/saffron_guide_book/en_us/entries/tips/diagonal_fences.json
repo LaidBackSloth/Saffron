@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.diagonal_fences",
+    "icon": "minecraft:oak_fence",
+    "category": "patchouli:tips",
+    "sortnum": 375,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.diagonal_fences"
+            }
+        }
+    ]
+}

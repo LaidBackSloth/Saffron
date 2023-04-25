@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.skipping_the_day",
+    "icon": "comforts:hammock_yellow",
+    "category": "patchouli:tips",
+    "sortnum": 225,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.skipping_the_day"
+            }
+        }
+    ]
+}

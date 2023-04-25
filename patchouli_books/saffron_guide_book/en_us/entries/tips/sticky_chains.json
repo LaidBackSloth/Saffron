@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.sticky_chains",
+    "icon": "minecraft:chain",
+    "category": "patchouli:tips",
+    "sortnum": 305,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.sticky_chains"
+            }
+        }
+    ]
+}

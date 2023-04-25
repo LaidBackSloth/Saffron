@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.teleportation",
+    "icon": "waystones:waystone",
+    "category": "patchouli:tips",
+    "sortnum": 75,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.teleportation"
+            }
+        }
+    ]
+}

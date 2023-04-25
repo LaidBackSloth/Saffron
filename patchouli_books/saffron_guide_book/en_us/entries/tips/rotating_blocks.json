@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.rotating_blocks",
+    "icon": "additionaladditions:wrench",
+    "category": "patchouli:tips",
+    "sortnum": 310,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.rotating_blocks"
+            }
+        }
+    ]
+}

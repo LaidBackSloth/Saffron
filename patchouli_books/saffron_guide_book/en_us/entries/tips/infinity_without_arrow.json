@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.infinity_without_arrow",
+    "icon": "minecraft:bow",
+    "category": "patchouli:tips",
+    "sortnum": 365,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.infinity_without_arrow"
+            }
+        }
+    ]
+}

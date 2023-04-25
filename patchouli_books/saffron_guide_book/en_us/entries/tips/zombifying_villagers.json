@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.zombifying_villagers",
+    "icon": "minecraft:golden_apple",
+    "category": "patchouli:tips",
+    "sortnum": 70,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.zombifying_villagers"
+            }
+        }
+    ]
+}

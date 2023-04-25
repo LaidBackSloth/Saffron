@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.player_armor_stands",
+    "icon": "minecraft:armor_stand",
+    "category": "patchouli:tips",
+    "sortnum": 335,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.player_armor_stands"
+            }
+        }
+    ]
+}

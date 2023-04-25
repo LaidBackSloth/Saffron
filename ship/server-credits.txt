@@ -1,0 +1,6 @@
+setup-server.bat
+setup-server.sh
+SERVER_README.txt
+
+these files are originally from the Bliss Modpack by Vazkii
+https://github.com/VazkiiMods/Bliss/tree/main/ship

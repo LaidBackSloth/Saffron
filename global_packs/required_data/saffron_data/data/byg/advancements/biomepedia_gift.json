@@ -1,0 +1,37 @@
+{
+  "parent": "byg:root",
+  "display": {
+    "icon": {
+      "item": "byg:biomepedia"
+    },
+    "title": {
+      "translate": "byg.advancements.biomepediagift.title"
+    },
+    "description": {
+      "translate": "byg.advancements.biomepediagift.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "biomepedia": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "byg:biomepedia"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "biomepedia"
+    ]
+  ]
+}

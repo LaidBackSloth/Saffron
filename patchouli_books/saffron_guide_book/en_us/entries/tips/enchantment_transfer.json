@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.enchantment_transfer",
+    "icon": "minecraft:enchanted_book",
+    "category": "patchouli:tips",
+    "sortnum": 205,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.enchantment_transfer"
+            }
+        }
+    ]
+}

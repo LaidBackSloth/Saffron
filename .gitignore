@@ -1,17 +1,17 @@
-*
+/*
 
-!config/
-!defaultconfigs/
-!fancymenu_setups/
-!global_packs/
-!patchouli_books/
-!resourcepacks/*/
-!scripts/
-!ship/
-!.gitignore
-!credits.txt
-!license.txt
+!/config/
+!/defaultconfigs/
+!/fancymenu_setups/
+!/global_packs/
+!/patchouli_books/
+!/resourcepacks/*/
+!/scripts/
+!/ship/
+!/.gitignore
+!/credits.txt
+!/license.txt
 
-ship/output-*
-ship/.idea/
-ship/venv/
+/ship/output-*
+/ship/.idea/
+/ship/venv/

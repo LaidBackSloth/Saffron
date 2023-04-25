@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.colored_grass",
+    "icon": "turf:yellow_turf",
+    "category": "patchouli:tips",
+    "sortnum": 405,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.colored_grass"
+            }
+        }
+    ]
+}

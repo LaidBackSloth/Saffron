@@ -1,0 +1,14 @@
+{
+    "name": "saffron.entry.redirecting_beacons",
+    "icon": "quark:yellow_corundum_cluster",
+    "category": "patchouli:tips",
+    "sortnum": 435,
+    "pages": [
+        {
+            "type": "text",
+            "text": {
+                "translate": "saffron.tip.redirecting_beacons"
+            }
+        }
+    ]
+}

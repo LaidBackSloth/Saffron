@@ -1,0 +1,10 @@
+{
+    "tip": {
+        "translate": "saffron.tip.crawling",
+        "with": [
+            {
+                "keybind": "key.personality.crawl"
+            }
+        ]
+    }
+}

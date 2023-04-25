@@ -1,0 +1,13 @@
+{
+    "tip": {
+        "translate": "saffron.tip.quick_beacon_pyramid",
+        "with": [
+            {
+                "keybind": "key.sneak"
+            },
+            {
+                "keybind": "key.use"
+            }
+        ]
+    }
+}

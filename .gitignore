@@ -5,7 +5,7 @@
 !/fancymenu_setups/
 !/global_packs/
 !/patchouli_books/
-!/resourcepacks/*
+!/resourcepacks/
 !/scripts/
 !/ship/
 !/.gitignore
@@ -15,5 +15,6 @@
 /ship/output-*
 /ship/.idea/
 /ship/venv/
+/resourcepacks/*.zip
 
 *toml.bak

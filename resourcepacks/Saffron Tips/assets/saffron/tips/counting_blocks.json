@@ -1,0 +1,10 @@
+{
+    "tip": {
+        "translate": "saffron.tip.counting_blocks",
+        "with": [
+            {
+                "keybind": "key.use"
+            }
+        ]
+    }
+}

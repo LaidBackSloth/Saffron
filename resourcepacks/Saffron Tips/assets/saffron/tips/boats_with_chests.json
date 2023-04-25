@@ -1,0 +1,10 @@
+{
+    "tip": {
+        "translate": "saffron.tip.boats_with_chests",
+        "with": [
+            {
+                "keybind": "key.use"
+            }
+        ]
+    }
+}

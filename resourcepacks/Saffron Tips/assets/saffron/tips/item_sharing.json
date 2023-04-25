@@ -1,0 +1,13 @@
+{
+    "tip": {
+        "translate": "saffron.tip.item_sharing",
+        "with": [
+            {
+                "keybind": "key.sneak"
+            },
+            {
+                "keybind": "key.chat"
+            }
+        ]
+    }
+}

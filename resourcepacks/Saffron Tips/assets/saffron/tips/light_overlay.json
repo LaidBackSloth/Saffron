@@ -1,0 +1,10 @@
+{
+    "tip": {
+        "translate": "saffron.tip.light_overlay",
+        "with": [
+            {
+                "keybind": "key.moreoverlays.lightoverlay.desc"
+            }
+        ]
+    }
+}

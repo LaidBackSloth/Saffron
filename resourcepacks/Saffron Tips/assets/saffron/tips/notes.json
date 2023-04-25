@@ -1,0 +1,10 @@
+{
+    "tip": {
+        "translate": "saffron.tip.notes",
+        "with": [
+            {
+                "keybind": "key.openNotes"
+            }
+        ]
+    }
+}

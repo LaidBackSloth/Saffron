@@ -1,0 +1,13 @@
+{
+    "tip": {
+        "translate": "saffron.tip.picking_up_entities",
+        "with": [
+            {
+                "keybind": "key.sneak"
+            },
+            {
+                "keybind": "key.use"
+            }
+        ]
+    }
+}

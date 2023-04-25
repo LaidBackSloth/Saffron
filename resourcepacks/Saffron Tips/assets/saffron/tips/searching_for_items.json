@@ -1,0 +1,10 @@
+{
+    "tip": {
+        "translate": "saffron.tip.searching_for_items",
+        "with": [
+            {
+                "keybind": "key.findme.search"
+            }
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "tip": {
+        "translate": "saffron.tip.repairing_items",
+        "with": [
+            {
+                "keybind": "key.sneak"
+            },
+            {
+                "keybind": "key.use"
+            }
+        ]
+    }
+}

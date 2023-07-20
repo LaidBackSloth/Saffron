@@ -3,7 +3,6 @@
     "landing_text": "saffron.guide.landing_text",
     "i18n": true,
     "creative_tab": "tools",
-    "version": 1,
     "show_progress": false,
-    "subtitle": "Version 1.0"
+    "subtitle": "Version PLACEHOLDER"
 }

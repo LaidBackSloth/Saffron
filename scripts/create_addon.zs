@@ -1,4 +1,4 @@
-#priority 95
+#priority 80
 
 import crafttweaker.api.recipe.Replacer;
 import crafttweaker.api.item.IItemStack;
@@ -27,6 +27,8 @@ import crafttweaker.api.text.TranslatableComponent;
 <tag:blocks:minecraft:mineable/pickaxe>.addId(<resource:contenttweaker:hardened_block>);
 <tag:blocks:minecraft:needs_stone_tool>.addId(<resource:contenttweaker:hardened_block>);
 
+<tag:blocks:create:fan_transparent>.addId(<resource:dustrial_decor:barbed_iron_bars>, <resource:quark:gold_bars>);
+
 //disable items
 disable(<item:create:red_sand_paper>);
 disable(<item:immersive_weathering:mossy_bricks>);
@@ -39,6 +41,29 @@ disable(<item:immersive_weathering:cracked_brick_slab>);
 disable(<item:immersive_weathering:cracked_brick_wall>);
 disable(<item:quark:iron_rod>);
 disable(<item:quark:chute>);
+disable(<item:createdeco:iron_bars_overlay>);
+disable(<item:createdeco:gold_bars>);
+disable(<item:createdeco:gold_bars_overlay>);
+disable(<item:createdeco:netherite_bars>);
+disable(<item:createdeco:netherite_bars_overlay>);
+disable(<item:createdeco:andesite_bars>);
+disable(<item:createdeco:andesite_bars_overlay>);
+disable(<item:createdeco:brass_bars>);
+disable(<item:createdeco:brass_bars_overlay>);
+disable(<item:createdeco:cast_iron_bars>);
+disable(<item:createdeco:cast_iron_bars_overlay>);
+disable(<item:createdeco:polished_iron_bars>);
+disable(<item:createdeco:polished_iron_bars_overlay>);
+disable(<item:createdeco:copper_bars>);
+disable(<item:createdeco:copper_bars_overlay>);
+disable(<item:createdeco:zinc_bars>);
+disable(<item:createdeco:zinc_bars_overlay>);
+
+var colors = ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "light_gray", "cyan", "purple", "blue", "brown", "green", "red", "black"];
+
+for color in colors {
+    disable(<item:quark:${color}_stool>);
+}
 
 //proper excavated variants implementation
 function addOreCrushingRecipe(id as string, name as string, amount as int, chance as float) as void {
@@ -49,13 +74,13 @@ addOreCrushingRecipe("byg:anthracite", "anthracite", 1, 75);
 addOreCrushingRecipe("minecraft:redstone", "redstone", 5, 50);
 addOreCrushingRecipe("byg:ametrine_gems", "ametrine", 1, 75);
 addOreCrushingRecipe("minecraft:lapis_lazuli", "lapis", 11, 37);
-addOreCrushingRecipe("create:crushed_gold_ore", "gold", 1, 75);
-addOreCrushingRecipe("create:crushed_iron_ore", "iron", 1, 75);
-addOreCrushingRecipe("create:crushed_copper_ore", "copper", 6, 12.5);
+addOreCrushingRecipe("create:crushed_raw_gold", "gold", 1, 75);
+addOreCrushingRecipe("create:crushed_raw_iron", "iron", 1, 75);
+addOreCrushingRecipe("create:crushed_raw_copper", "copper", 6, 12.5);
 addOreCrushingRecipe("minecraft:emerald", "emerald", 1, 75);
 addOreCrushingRecipe("minecraft:quartz", "quartz", 1, 75);
 addOreCrushingRecipe("minecraft:diamond", "diamond", 1, 75);
-addOreCrushingRecipe("create:crushed_zinc_ore", "zinc", 1, 75);
+addOreCrushingRecipe("create:crushed_raw_zinc", "zinc", 1, 75);
 addOreCrushingRecipe("byg:emeraldite_shards", "emeraldite", 1, 75);
 addOreCrushingRecipe("byg:raw_pendorite", "pendorite", 1, 25);
 addOreCrushingRecipe("minecraft:coal", "coal", 1, 75);
@@ -89,14 +114,13 @@ craftingTable.removeByName("create:crafting/materials/andesite_alloy_from_zinc")
 <recipetype:create:crushing>.removeByName("create:compat/byg/crushing/red_rock");
 <recipetype:create:crushing>.removeByName("create:compat/byg/crushing/pervaded_netherrack");
 <recipetype:create:haunting>.removeByName("create:haunting/nether_brick");
-//<recipeType:create:emptying>.removeByName("create:empty_infinite_water_infinite_milk_of_minecraft_milk");
 
 //better crushed ore washing
-<recipetype:create:splashing>.removeByRegex("create:splashing/crushed_.*_ore");
-<recipetype:create:splashing>.addRecipe("splashing_crushed_iron_ore", [<item:minecraft:iron_nugget> * 9, (<item:minecraft:iron_nugget> * 5) % 25], <item:create:crushed_iron_ore>, 200);
-<recipetype:create:splashing>.addRecipe("splashing_crushed_gold_ore", [<item:minecraft:gold_nugget> * 9, (<item:minecraft:gold_nugget> * 5) % 25], <item:create:crushed_gold_ore>, 200);
-<recipetype:create:splashing>.addRecipe("splashing_crushed_copper_ore", [<item:create:copper_nugget> * 9, (<item:create:copper_nugget> * 5) % 25], <item:create:crushed_copper_ore>, 200);
-<recipetype:create:splashing>.addRecipe("splashing_crushed_zinc_ore", [<item:create:zinc_nugget> * 9, (<item:create:zinc_nugget> * 5) % 25], <item:create:crushed_zinc_ore>, 200);
+<recipetype:create:splashing>.removeByRegex("create:splashing/crushed_raw_.*");
+<recipetype:create:splashing>.addRecipe("splashing_crushed_raw_iron", [<item:minecraft:iron_nugget> * 9, (<item:minecraft:iron_nugget> * 5) % 25], <item:create:crushed_raw_iron>, 200);
+<recipetype:create:splashing>.addRecipe("splashing_crushed_raw_gold", [<item:minecraft:gold_nugget> * 9, (<item:minecraft:gold_nugget> * 5) % 25], <item:create:crushed_raw_gold>, 200);
+<recipetype:create:splashing>.addRecipe("splashing_crushed_raw_copper", [<item:create:copper_nugget> * 9, (<item:create:copper_nugget> * 5) % 25], <item:create:crushed_raw_copper>, 200);
+<recipetype:create:splashing>.addRecipe("splashing_crushed_raw_zinc", [<item:create:zinc_nugget> * 9, (<item:create:zinc_nugget> * 5) % 25], <item:create:crushed_raw_zinc>, 200);
 
 //proper mossy stones
 function mossyCDStoneType(name as string) as void {
@@ -162,7 +186,7 @@ craftingTable.addShapeless("neherrack", <item:minecraft:netherrack>, [<item:mine
 
 //netherquartz automation more specific
 <recipetype:create:splashing>.removeByName("create:splashing/soul_sand");
-<recipetype:create:splashing>.addRecipe("splashing_soul_sand", [(<item:minecraft:quartz> * 4) % 12.5], <item:minecraft:soul_sand>, 200);
+<recipetype:create:splashing>.addRecipe("splashing_soul_sand", [(<item:minecraft:quartz>) % 12.5], <item:minecraft:soul_sand>, 200);
 
 //sand automation more specific
 <recipetype:create:crushing>.removeByName("create:crushing/gravel");
@@ -207,3 +231,33 @@ Replacer.forOutput(<item:createdeco:blue_brick>, craftingTable).replace(<item:mi
 
 //harder jetpack
 Replacer.forOutput(<item:create_jetpack:jetpack>, <recipetype:create:mechanical_crafting>).replace(<item:create:shaft>, <item:byg:pendorite_ingot>).execute();
+
+//rope pulley with rope
+Replacer.forOutput(<item:create:rope_pulley>, craftingTable).replace(<tag:items:minecraft:wool>, <item:quark:rope>).execute();
+
+//gunpowder automation
+<recipetype:create:mixing>.addRecipe("mixing_gunpowder", <constant:create:heat_condition:heated>, [<item:minecraft:gunpowder>], [<item:create:cinder_flour>, <item:create:powdered_obsidian>, <item:minecraft:charcoal>, <item:create:zinc_nugget>], [], 200);
+
+//use modded crafting tables like vanilla one
+Replacer.forOutput(<item:create:crafting_blueprint>, craftingTable).replace(<item:minecraft:crafting_table>, <tag:items:c:workbenches>).execute();
+Replacer.forOutput(<item:create:mechanical_crafter>, craftingTable).replace(<item:minecraft:crafting_table>, <tag:items:c:workbenches>).execute();
+
+//use mechnical saw to automate sawmill recipes
+function removeSawmillRecipes() as void {
+    <recipetype:create:cutting>.removeAll();
+}
+
+function addSawmillRecipe(name as string, input as IIngredient, output as IItemStack, amount as int) as void {
+    <recipetype:create:cutting>.addJsonRecipe("sawing/" + name, {
+        "ingredients": [
+            input
+        ],
+        "results": [
+            {
+                "item": output.registryName,
+                "count": amount
+            }
+        ],
+        "processingTime": 50
+    });
+}

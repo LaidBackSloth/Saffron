@@ -122,6 +122,17 @@ var ings as IIngredient[] = [
     <item:twigs:chiseled_bricks>,
     <item:byg:cryptic_lantern>,
     <item:clayworks:kiln>,
+    <item:waystones:mossy_waystone>,
+    <item:waystones:sandy_waystone>,
+    <tag:items:waystones:sharestone>,
+    <item:waystones:portstone>,
+    <item:waystones:return_scroll>,
+    <item:waystones:bound_scroll>,
+    <item:waystones:warp_scroll>,
+    <item:waystones:warp_dust>,
+    <item:waystones:warp_plate>,
+    <item:waystones:warp_stone>,
+    <item:waystones:attuned_shard>,
 ];
 
 var blacklist as IItemStack[] = [
@@ -137,13 +148,7 @@ var blacklist as IItemStack[] = [
     <item:mctb:blossom_crafting_table>,
 ];
 
-function tooltip(item as IItemStack) as void {
-    item.addTooltip(new TranslatableComponent("saffron.tooltip.disabled").withStyle(style => style.withColor(<constant:minecraft:formatting:red>)));
-}
-
 function disable(item as IItemStack) as void {
-    tooltip(item);
-    JEI.hideIngredient(item);
     for tag in <tagmanager:items>.getTagsFor(item.registryName) {
         if (tag.id != <resource:doubleslabs:disabled_slabs>) {
             tag.removeId(item.registryName);
@@ -167,8 +172,3 @@ for ing in ings {
         }
     }
 }
-
-//for item in (<tag:items:saffron:disabled> as IIngredient).items {
-//    tooltip(item);
-//    JEI.hideIngredient(item);
-//}

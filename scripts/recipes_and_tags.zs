@@ -22,7 +22,6 @@ var bloodstone = <item:twigs:bloodstone>;
 var blue_ice = <item:minecraft:blue_ice>;
 var blue_sand = <item:byg:blue_sand>;
 var book = <item:minecraft:book>;
-var bound_scroll = <item:waystones:bound_scroll>;
 var bucket = <item:minecraft:bucket>;
 var builder_remote = <item:storagenetwork:builder_remote>;
 var bundle = <item:minecraft:bundle>;
@@ -154,7 +153,6 @@ var red_rock = <item:byg:red_rock>;
 var red_rock_bricks = <item:byg:red_rock_bricks>;
 var red_sand = <item:minecraft:red_sand>;
 var redstone_block = <item:minecraft:redstone_block>;
-var return_scroll = <item:waystones:return_scroll>;
 var rhyolite = <item:twigs:rhyolite>;
 var ring_of_attraction = <item:ring_of_attraction:ring_of_attraction>;
 var ring_of_enderchest = <item:ring_of_enderchest:ring_of_enderchest>;
@@ -200,14 +198,11 @@ var tuff_brick_slab_tw = <item:twigs:polished_tuff_brick_slab>;
 var tuff_bricks = <item:twigs:polished_tuff_bricks>;
 var tuff_pillar = <item:quark:tuff_pillar>;
 var upper = <item:uppers:upper>;
-var uprade_template = <item:storagedrawers:upgrade_template>;
+var upgrade_template = <item:storagedrawers:upgrade_template>;
 var void_totem = <item:voidtotem:totem_of_void_undying>;
-var warp_dust = <item:waystones:warp_dust>;
-var warp_plate = <item:waystones:warp_plate>;
-var warp_scroll = <item:waystones:warp_scroll>;
-var warp_stone = <item:waystones:warp_stone>;
 var water_bucket = <item:minecraft:water_bucket>;
 var wax = <tag:items:immersive_weathering:wax>;
+var waystone = <item:waystones:waystone>;
 var wrappist_shard = <item:geode:wrappist_shard>;
 var bamboo_block = <item:twigs:bundled_bamboo>;
 var stripped_bamboo_block = <item:twigs:stripped_bundled_bamboo>;
@@ -235,6 +230,8 @@ var emeraldite_block = <item:contenttweaker:emeraldite_block>;
 var pendorite_scraps = <item:byg:pendorite_scraps>;
 var pendorite_scrap_block = <item:contenttweaker:pendorite_scrap_block>;
 var raw_pendorite = <item:byg:raw_pendorite>;
+var lava_bucket = <item:minecraft:lava_bucket>;
+var void_upgrade = <item:storagedrawers:void_upgrade>;
 
 //add tags
 <tag:items:immersive_weathering:soot>.addId(<resource:immersive_weathering:soot>);
@@ -319,10 +316,14 @@ Replacer.forOutput(nulch, craftingTable).replace(scales, leaves).execute();
 
 //make storage upgrades require the previous tier
 Replacer.forOutput(storage_upgrade_1, craftingTable).replace(obsidian, stone_tag).execute();
-Replacer.forOutput(storage_upgrade_2, craftingTable).replace(uprade_template, storage_upgrade_1).execute();
-Replacer.forOutput(storage_upgrade_3, craftingTable).replace(uprade_template, storage_upgrade_2).execute();
-Replacer.forOutput(storage_upgrade_4, craftingTable).replace(uprade_template, storage_upgrade_3).execute();
-Replacer.forOutput(storage_upgrade_5, craftingTable).replace(uprade_template, storage_upgrade_4).execute();
+Replacer.forOutput(storage_upgrade_2, craftingTable).replace(upgrade_template, storage_upgrade_1).execute();
+Replacer.forOutput(storage_upgrade_3, craftingTable).replace(upgrade_template, storage_upgrade_2).execute();
+Replacer.forOutput(storage_upgrade_4, craftingTable).replace(upgrade_template, storage_upgrade_3).execute();
+Replacer.forOutput(storage_upgrade_5, craftingTable).replace(upgrade_template, storage_upgrade_4).execute();
+
+//easier void upgrades
+craftingTable.remove(void_upgrade);
+craftingTable.addShapeless("void_upgrade", void_upgrade, [upgrade_template, lava_bucket]);
 
 //replace rabbit hide with leather
 Replacer.forOutput(bundle, craftingTable).replace(rabbit_hide, leather).execute();
@@ -447,7 +448,7 @@ stoneCutter.addRecipe("polished_bloodstone_slab", <item:twigs:polished_bloodston
 <tag:items:minecraft:flammable_planks>.add(<tag:items:minecraft:planks>);
 <tag:items:minecraft:flammable_planks>.removeId(<resource:minecraft:crimson_planks>, <resource:minecraft:warped_planks>, <resource:byg:lament_planks>, <resource:byg:sythian_planks>, <resource:byg:embur_planks>);
 Replacer.forOutput(charred_planks, furnace).replace(<tag:items:immersive_weathering:non_flammable_planks>, <tag:items:minecraft:flammable_planks>).execute();
-furnace.addRecipe("log_to_charred_log", charred_log, <tag:items:minecraft:logs_that_burn>, 0.1, 200);
+smoker.addRecipe("smoking_log_to_charred_log", charred_log, <tag:items:minecraft:logs_that_burn>, 0.1, 200);
 furnace.addRecipe("charred_planks_to_ash", ash_iw, charred_planks, 0.1, 200);
 craftingTable.addShapeless("charred_planks_from_charred_log", charred_planks * 4, [charred_log]);
 furnace.remove(charred_slab);
@@ -465,8 +466,8 @@ furnace.remove(charred_fence_gate);
 craftingTable.addShaped("charred_fence_gate", charred_fence_gate,
 [[stick, charred_planks, stick],
 [stick, charred_planks, stick]]);
-furnace.remove(charcoal);
-furnace.addRecipe("charcoal", charcoal, charred_log, 0.1, 200);
+charred_log.setBurnTime(1200);
+charred_planks.setBurnTime(600);
 
 //simple storage recipes made harder
 craftingTable.remove(network_cable);
@@ -504,22 +505,12 @@ craftingTable.addShaped("builder_remote", builder_remote,
 [dispenser, storage_remote, dispenser],
 [redstone_block, dispenser, redstone_block]]);
 
-//waystones made harder
-Replacer.forOutput(warp_stone, craftingTable).replace(purple_dye, warp_dust).replace(emerald, diamond).execute();
-Replacer.forOutput(return_scroll, craftingTable).replace(purple_dye, warp_dust).execute();
-craftingTable.remove(bound_scroll);
-craftingTable.addShaped("bound_scroll", bound_scroll * 3, 
-	[[warp_dust, gold_nugget, warp_dust],
-	[paper, paper, paper]]);
-craftingTable.remove(warp_scroll);
-craftingTable.addShapeless("warp_scroll", warp_scroll, [bound_scroll, ender_pearl]);
-craftingTable.remove(warp_dust);
-craftingTable.addShapeless("warp_dust", warp_dust, [ender_pearl, purple_dye]);
-craftingTable.remove(warp_plate);
-craftingTable.addShaped("warp_plate", warp_plate, 
-	[[warp_dust, flint, warp_dust],
-	[stone_bricks, stone_bricks, stone_bricks],
-	[warp_dust, ametrine_block, warp_dust]]);
+//waystone made harder
+craftingTable.remove(waystone);
+craftingTable.addShaped("waystone", waystone, 
+[[stone_tag, ender_pearl, stone_tag],
+[ender_pearl, netherite_ingot, ender_pearl],
+[stone_tag, ender_pearl, stone_tag]]);
 
 //torchmaster made harder
 craftingTable.remove(megatorch);
@@ -551,6 +542,7 @@ craftingTable.removeByName("byg:peat_from_crafting2");
 Replacer.forOutput(singleton_upgrade, craftingTable).replace(coal, coals).execute();
 Replacer.forOutput(torch, craftingTable).replace(coal, coals).execute();
 Replacer.forOutput(soul_torch, craftingTable).replace(coal, coals).execute();
+craftingTable.removeByName("byg:fire_charge_from_byg_coals");
 Replacer.forOutput(fire_charge, craftingTable).replace(coal, coals).execute();
 
 //byg sand smelting to regular glass

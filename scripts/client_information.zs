@@ -154,8 +154,6 @@ i(<item:quark:music_disc_clock>, "ambient_disc");
 i(<item:quark:music_disc_crickets>, "ambient_disc");
 i(<item:quark:music_disc_chatter>, "ambient_disc");
 
-i(<tag:items:quark:stools>, "stool");
-
 i(<item:minecraft:poisonous_potato>, "poisonous_potato");
 
 i(<item:rainbowlamp:rainbow_lamp>, "rainbow_lamp");
@@ -228,3 +226,9 @@ JEI.hideCategory("jeresources:dungeon");
 JEI.hideCategory("jeresources:plant");
 JEI.hideCategory("jeresources:worldgen");
 JEI.hideCategory("clayworks:baking");
+
+//properly hiding disabled items
+for item in (<tag:items:saffron:disabled> as IIngredient).items {
+    item.addTooltip(new TranslatableComponent("saffron.tooltip.disabled").withStyle(style => style.withColor(<constant:minecraft:formatting:red>)));
+    JEI.hideIngredient(item);
+}

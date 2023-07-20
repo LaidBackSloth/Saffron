@@ -5,16 +5,15 @@ import crafttweaker.api.ingredient.IIngredient;
 
 //corail woodcutter implementation
 function addWoodcutterRecipe(input as IIngredient, output as IItemStack, amount as int) as void {
-    <recipetype:corail_woodcutter:woodcutting>.addJsonRecipe("woodcutting/" + input.items[0].registryName.namespace + "-" + input.items[0].registryName.path + "_to_" + output.registryName.namespace + "-" + output.registryName.path, {
+    var name = input.items[0].registryName.namespace + "-" + input.items[0].registryName.path + "_to_" + output.registryName.namespace + "-" + output.registryName.path;
+    <recipetype:corail_woodcutter:woodcutting>.addJsonRecipe("woodcutting/" + name, {
         "ingredient": input,
         "result": output.registryName,
         "count": amount
     });
-}
-
-function framed(output as IItemStack, amount as int) as void {
-    addWoodcutterRecipe(<item:framedblocks:framed_cube>, output, amount);
-    <tag:items:framedblocks:framed_blocks>.addId(output.registryName);
+    
+    //only used for Saffron Create but left here to save space
+    addSawmillRecipe(name, input, output, amount);
 }
 
 function addWoodRecipes(name as string, mod as string) as void {
@@ -138,10 +137,12 @@ function addWoodRecipes(name as string, mod as string) as void {
         addWoodcutterRecipe(logs, <item:${mod}:${name}_sign>, 2);
     }
 
-    if ((mod == "minecraft" || mod == "quark" || mod == "byg") && name != "oak") {
-        addWoodcutterRecipe(logs, mod == "byg" ? <item:byg:${name}_crafting_table> : <item:mctb:${name}_crafting_table>, 1);
-    } else {
-        addWoodcutterRecipe(logs, <item:minecraft:crafting_table>, 1);
+    if (mod == "minecraft" || mod == "quark" || mod == "byg") {
+        if (name == "oak") {
+            addWoodcutterRecipe(logs, <item:minecraft:crafting_table>, 1);
+        } else {
+            addWoodcutterRecipe(logs, mod == "byg" ? <item:byg:${name}_crafting_table> : <item:mctb:${name}_crafting_table>, 1);
+        }
     }
 
     if (mod != "twigs") {
@@ -180,6 +181,9 @@ function addWoodRecipes(name as string, mod as string) as void {
 }
 
 <recipetype:corail_woodcutter:woodcutting>.removeAll();
+
+//only used for Saffron Create
+removeSawmillRecipes();
 
 addWoodcutterRecipe(<tag:items:minecraft:logs>, <item:quark:stick_block>, 1);
 addWoodcutterRecipe(<tag:items:minecraft:logs>, <item:minecraft:stick>, 8);

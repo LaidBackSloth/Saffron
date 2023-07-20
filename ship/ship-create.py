@@ -57,13 +57,11 @@ tips_blacklist = [
 
 # Mods to not include in the server zip
 server_mods_blacklist = [
-    'Skin Layers 3D (Fabric/Forge)',
     'Auudio [Forge]',
     'Better Advancements',
     'BetterF3',
-    'Better Mods Button',
+    'Better Mods Button [Forge]',
     'Better Ping Display',
-    'Better Statistics Screen (Fabric/Forge)',
     'Better Third Person',
     'Boat Item View (Forge)',
     'Better Brightness Slider',
@@ -73,7 +71,7 @@ server_mods_blacklist = [
     'Configured',
     'Controlling',
     'Default Options',
-    'Delete Worlds To Trash [Forge]',
+    'Delete Worlds To Trash',
     'Ding (Forge)',
     'Drippy Loading Screen [Forge]',
     'Durability Tooltip',

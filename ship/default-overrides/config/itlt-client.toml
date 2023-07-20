@@ -298,7 +298,7 @@
 				# 
 				# This is useful for warning users that are allocating excessive amounts of RAM
 				# to the point of causing nasty GC-related lag spikes as a result.
-				enableMaxMemoryWarning = true
+				enableMaxMemoryWarning = false
 				# 
 				# The maximum recommended amount of allocated RAM in GB needed to skip the warning
 				# message when launching the modpack.
@@ -324,6 +324,13 @@
 
 [Display]
 
+	[Display.General]
+		# 
+		# The name of your modpack.
+		# If blank, the modpack name will be auto-detected from supported launchers.
+		# This auto-detection isn't perfect, so you can override it here if needed.
+		modpackName = "Saffron"
+
 	[Display.WindowTitle]
 		# 
 		# Enable this if you want to change the name of the Minecraft window.
@@ -340,31 +347,17 @@
 		# it's based on - especially useful if your modpack has multiple major releases that
 		# span across different Minecraft versions.
 		# 
-		# Note: Put "%autoName" for your modpack's display name to be automatically detected
-		# and used when launching from a supported launcher.
+		# Note: Put "%modpackName" to fill in your modpack's display name from [Display.General] modpackName.
 		# 
 		# Examples:
-		# - "ModpackName - %mc" = "ModpackName - Minecraft* 1.17.1"
-		# - "%mc - ModpackName" = "Minecraft* 1.17.1 - ModpackName"
-		# - "ModpackName (%mc)" = "ModpackName (Minecraft* 1.17.1)"
-		# - "%autoName (%mc)" = "ModpackName (Minecraft* 1.17.1)"
-		# - "ModpackName v2 based on %mc" = "ModpackName v2 based on Minecraft* 1.17.1"
+		# - "ModpackName - %mc" = "ModpackName - Minecraft* 1.18"
+		# - "%mc - ModpackName" = "Minecraft* 1.18 - ModpackName"
+		# - "ModpackName (%mc)" = "ModpackName (Minecraft* 1.18)"
+		# - "%modpackName (%mc)" = "ModpackName (Minecraft* 1.18)"
+		# - "ModpackName v2 based on %mc" = "ModpackName v2 based on Minecraft* 1.18"
 		# 
 		# Note: enableCustomWindowTitle must be enabled for this to take effect.
 		customWindowTitleText = "Saffron - %mc"
-		# 
-		# Whether or not to automatically replace "%autoName" in customWindowTitleText with
-		# your modpack's display name when launching from a supported launcher.
-		# 
-		# Note: enableCustomWindowTitle must be enabled for this to take effect.
-		enableUsingAutodetectedDisplayName = false
-		# 
-		# The text to use in place of %autoDetect if we're unable to automatically detect your
-		# modpack's display name.
-		# 
-		# Note: This value will always be used for %autoName if enableUsingAutodetectedDisplayName
-		# is disabled, regardless of whether or not the pack is launched from a supported launcher.
-		autoDetectedDisplayNameFallback = "ModpackName"
 
 	[Display.Icon]
 		# 
@@ -405,16 +398,10 @@
 		# you can update without needing to make any changes to your welcome.txt.
 		enableWelcomeScreen = false
 		# 
-		# Enable this if you want to change the modpack name that shows up on the heading of the
-		# welcome screen.
+		# The welcome screen header shows "Welcome to x". This setting lets you change x.
 		# 
-		# Note: If you leave this disabled, itlt will use the contents of %autoName (auto-detected
-		# modpack name - see the enableUsingAutodetectedDisplayName and autoDetectedDisplayNameFallback
-		# options for details).
-		enableUsingCustomWelcomeHeaderModpackDisplayName = true
-		# 
-		# If enableUsingCustomWelcomeHeaderModpackDisplayName is true, the welcome screen header will show "Welcome to x"
-		# where x is what you put here.
+		# - If blank (default), itlt will use your modpack's name from [Display.General] modpackName.
+		# - Otherwise x will be whatever you put here.
 		customWelcomeHeaderModpackDisplayName = "Saffron"
 
 [ServerList]
@@ -433,5 +420,5 @@
 	# 
 	# The version of itlt that created this config file. Intended to be used for migrating
 	# config changes when you update the mod. Please don't touch this, this is for itlt itself to change.
-	configVersion = "2.1.5"
+	configVersion = "2.2.0"
 
